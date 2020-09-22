@@ -1,0 +1,11 @@
+CATEGORY KNOWLEDGE, SKELETON-BASED SHAPE MATCHING AND SHAPE CLASSIFICATION
+Erdem, Ibrahim Aykut
+Ph.D., Department of Computer Engineering
+Supervisor: Assoc. Prof. Dr. Sibel Tari
+October 2008, 179 pages
+
+Skeletal shape representations, in spite of their structural instabilities, have proven them- selves as effective representation schemes for recognition and classification of visual shapes. They capture part structure in a compact and natural way and provide insensitivity to visual transformations such as occlusion and articulation of parts.
+
+In this thesis, we explore the potential use of disconnected skeleton representation for shape recognition and shape classification. Specifically, we first investigate the importance of contextual information in recognition where we extend the previously proposed disconnected skeleton based shape matching methods in different ways by incorporating category knowledge into matching process. Unlike the view in syntactic matching of shapes, our interpretation differentiates the semantic roles of the shapes in comparison in a way that a query shape is being matched with a database shape whose category is known a priori. The presence of context, i.e. the knowledge about the category of the database shape, influences the similarity computations, and helps us to obtain better matching performance. Next, we build upon our category-influenced matching framework in which both shapes and shape categories are represented with depth-1 skeletal trees, and develop a similarity-based shape classification method where the category trees formed for each shape category provide a reference set for learning the relationships between categories. As our classification method takes into account both within-category and between-category information, we attain high classification performance. Moreover, using the suggested classification scheme in a retrieval task improves both the efficiency and accuracy of matching by eliminating unrelated comparisons.
+
+Keywords: shape matching, shape classification, disconnected skeleton, shape similarity, similarity-based pattern recognition
