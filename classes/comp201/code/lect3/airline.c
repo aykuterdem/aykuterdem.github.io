@@ -1,6 +1,6 @@
 /**
- * CS107 Lecture 2
- * Written by Nick Troccoli
+ * COMP201 Lecture 3
+ * Aykut Erdem (Code written by Nick Troccoli, Stanford CS107)
  * ------------------------
  * This program shows some of the limitations of integer representations!  Why does it behave
  * in this way?
@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
   for (int i = 0; i < 31; i++) {
       
     // Pretend there are a certain number of crew changes per day
-    airlineCrewChangesThisMonth += 120;
+    airlineCrewChangesThisMonth += 1200;
     printf("Crew changes by end of day %d: %d\n", i + 1, airlineCrewChangesThisMonth);
   }
   
