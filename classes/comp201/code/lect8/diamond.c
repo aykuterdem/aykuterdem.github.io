@@ -42,7 +42,7 @@ void diamond(char *str) {
 
 int main(int argc, char *argv[]) {
     if (argc == 1) {
-        printf("Usage: ./diamond <TEXT>");
+        printf("Usage: ./diamond <TEXT>\n");
         return 0;
     } else {
         diamond(argv[1]);
