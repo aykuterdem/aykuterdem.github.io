@@ -1,7 +1,7 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS = args
+PROGRAMS = airline
 
 all:: $(PROGRAMS)
 
