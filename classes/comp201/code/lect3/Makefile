@@ -1,7 +1,7 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS = is_power_of_2
+PROGRAMS = is_power_of_2 color_wheel
 
 all:: $(PROGRAMS)
 
