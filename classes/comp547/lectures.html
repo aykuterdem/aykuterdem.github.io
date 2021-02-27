@@ -82,19 +82,59 @@
   					<li>'s <a href="#">###</a>, ##</li>
   				</ul><br>
   				</p>
+  				<p>
   				<h3>Additional Resources:</h3>
   				<ul class="default">
   					<li></li>
   				</ul>
   				</p>-->
-  				
- <!-- Lecture 5  
+ 
+ <!-- Lecture 6 
+   				<hr>
+  				<h2>Lecture 6: Normalizing Flow Models (<a href="slides/lect6-normalizing-flow-models.pdf">slides</a>)</h2>
+  				<p><i></i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Required Reading:</h3>
+  				<ul class="default">
+  					<li><a href="https://arxiv.org/abs/1410.8516">NICE: Non-linear Independent Components Estimation</a>, Laurent Dinh, David Krueger, and Yoshua Bengio, ICLR 2015.</li>
+  					<li><a href="https://papers.nips.cc/paper/2016/file/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Paper.pdf">Improved variational inference with inverse autoregressive flow</a>, Durk P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling, NIPS 2016.</li>
+  					<li><a href="https://openreview.net/forum?id=HkpbnH9lx">Density estimation using Real NVP</a>, Laurent Dinh, Jascha Sohl-Dickstein, Samy Bengio, ICLR 2017.</li>
+  					<li><a href="https://papers.nips.cc/paper/2017/file/6c1da886822c67822bcf3679d04369fa-Paper.pdf">Masked Autoregressive Flow for Density Estimation</a>, George Papamakarios, Theo Pavlakou, Iain Murray, NIPS 2017.</li>
+  					<li><a href="http://proceedings.mlr.press/v80/huang18d/huang18d.pdf">Neural autoregressive flows</a>, Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville, ICML 2018.</li>
+  					<li><a href="https://papers.nips.cc/paper/2018/file/d139db6a236200b21cc7f752979132d0-Paper.pdf">Glow: Generative Flow with Invertible 1×1 Convolutions</a>, Diederik P. Kingma, Prafulla Dhariwal, NeurIPS 2018.</li>
+  					<li><a href="http://proceedings.mlr.press/v97/ho19a.html">Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design</a>, Jonathan Ho, Xi Chen, Aravind Srinivas, Yan Duan, Pieter Abbeel, ICML 2019.</li>
+  					<li><a href="https://arxiv.org/pdf/1808.03856.pdf">Neural Importance Sampling</a>, Thomas Müller, Brian McWilliams, Fabrice Rousselle, Markus Gross, Jan Novák, SIGGRAPH 2019.</li> 					
+  					<li><a href="https://openreview.net/forum?id=rJxgknCcK7">Ffjord: Free-form continuous dynamics for scalable reversible generative models</a>, Will Grathwohl, Ricky T. Q. Chen, Jesse Bettencourt, Ilya Sutskever, David Duvenaud, ICLR 2019.</li>
+  					  					<li><a href="https://openreview.net/pdf/99885355a0f127b35ddbf715679d8fa3a14e9a99.pdf">Residual Flows for Invertible Generative Modeling</a>, Ricky T. Q. Chen, Jens Behrmann, David Duvenaud, Jörn-Henrik Jacobsen, NeurIPS 2019.</li>
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li><a href="https://www.youtube.com/watch?v=P4Ta-TZPVi0">A primer on normalizing flows</a>, Laurent Dinh</li>
+  					<li><a href="https://www.youtube.com/watch?v=u3vVyFVU_lI">Normalizing Flows and Invertible Neural Networks in Computer Vision</a>, Marcus A. Brubaker, Ullrich Köthe, Carsten Rother</li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li><a href="https://arxiv.org/pdf/1908.09257.pdf">Normalizing Flows: An Introduction and Review of Current Methods</a>, Ivan Kobyzev, Simon J.D. Prince, and Marcus A. Brubaker, IEEE PAMI, 2020..</li>
+  					<li><a href="https://arxiv.org/pdf/1912.02762.pdf">Normalizing Flows for Probabilistic Modeling and Inference</a>, George Papamakarios, Eric Nalisnick, Danilo Jimenez Rezende, Shakir Mohamed, Balaji Lakshminarayanan, arXiv preprint, arXiv:1912.02762, 2019</li>
+</li>
+  					<li>[Blog post] <a href="https://openai.com/blog/glow/">Glow: Better Reversible Generative Models</a>, OpenAI</li>
+<li>[Blog post] <a href="https://blog.evjang.com/2018/01/nf1.html">Normalizing Flows Tutorial, Part 1: Distributions and Determinants</a>, Eric Jang</li>
+  					<li>[Blog post] <a href="https://blog.evjang.com/2018/01/nf2.html">Normalizing Flows Tutorial, Part 2: Modern Normalizing Flows</a>, Eric Jang</li>
+  					<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html">Flow-based Deep Generative Models</a>, Lilian Weng</li>
+  				</ul>
+  				</p>-->
+  				 				
+ <!-- Lecture 5 -->
    				<hr>
   				<h2>Lecture 5: Autoregressive Models (<a href="slides/lect5-autoregressive-models.pdf">slides</a>)</h2>
   				<p><i>histograms as simple generative models, parameterized distributions and maximum likelihood, RNN-based autoregressive models, masking-based autoregressive models</i></p>
   				<p>Please study the following material in preparation for the class:</p>
   				<h3>Required Reading:</h3>
   				<ul class="default">
+	  				<li><a href="https://www.deeplearningbook.org/contents/generative_models.html">Sections 20.10.5-20.10.10</a> of the <a href="http://www.deeplearningbook.org/">Deep Learning</a> textbook.</li>
   					<li><a href="http://proceedings.mlr.press/v37/germain15.html">MADE: Masked Autoencoder for Distribution Estimation</a>, Mathieu Germain, Karol Gregor, Iain Murray, Hugo Larochelle. ICML 2015.</li>
   					<li><a href="https://arxiv.org/abs/1609.03499">WaveNet: A Generative Model for Raw Audio</a>, Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. arXiv preprint arXiv:1609.03499, 2016.</li>
   					<li><a href="http://proceedings.mlr.press/v48/oord16.html">Pixel Recurrent Neural Networks</a>, Aaron Van Oord, Nal Kalchbrenner, Koray Kavukcuoglu. ICML 2018.</li>
@@ -113,14 +153,15 @@
   				<p>
   				<h3>Suggested Video Material:</h3>
   				<ul class="default">
-  					<li>'s <a href="#">###</a>, ##</li>
+  					<li><a href="https://www.youtube.com/watch?v=R8fx2b8Asg0">Autoregressive Generative Models with Deep Learning</a>, Hugo Larochelle</li>, 
   				</ul><br>
   				</p>
+  				<p>
   				<h3>Additional Resources:</h3>
   				<ul class="default">
-  					<li></li>
+  					<li>[Blog post] <a href="https://towardsdatascience.com/auto-regressive-generative-models-pixelrnn-pixelcnn-32d192911173">Auto-Regressive Generative Models (PixelRNN, PixelCNN++)</a>, Harshit Sharma, Saurabh Mishra</li>
   				</ul>
-  				</p>-->
+  				</p>
  
  <!-- Lecture 4 -->
    				<hr>
@@ -145,7 +186,8 @@
 		  			<li><a href="https://www.youtube.com/watch?v=Q57rzaHHO0k">Attention and Memory in Deep Learning</a>, Alex Graves</li>
 		  			<li><a href="https://www.youtube.com/watch?v=rBCqOTEfxvg">Attention is all you need attentional neural network models</a>, Łukasz Kaiser</li>
 	  			</ul><br>
-	  			
+	  			</p>
+	  			<p>	  			
 	  			<h3>Additional Resources:</h3>
   				<ul class="default">
 	  				<li><a href="https://distill.pub/2016/augmented-rnns/">Attention and Augmented Recurrent Neural Networks</a>, Chris Olah and Shan Carter. Distill, 2016</li>
@@ -175,6 +217,7 @@
   					<li>Efstratios Gavves and Max Welling's <a href="http://webcolleges.uva.nl/Mediasite/Play/00584cefc05647a3a47113c749dccac21d">Lecture 8</a></li>
   				</ul><br>
   				</p>
+  				<p>
   				<h3>Additional Resources:</h3>
   				<ul class="default">
   					<li>[Blog post] <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a>, Chris Olah.</li>
@@ -202,6 +245,7 @@
   					<li>Kaiming He's tutorial on <a href="https://www.youtube.com/watch?v=C6tLw-rPQ2o">Deep Residual Networks</a></li>
   				</ul><br>
   				</p>
+  				<p>
   				<h3>Additional Resources:</h3>
 	  			<ul class="default">
 		  			<li><a href="https://www.researchgate.net/publication/317496930_Deep_Convolutional_Neural_Networks_for_Image_Classification_A_Comprehensive_Review">Deep Convolutional Neural Networks for Image Classification: A Comprehensive Review</a>, Waseem Rawat and Zenghui Wang. Neural Computation, Vol. 29 , No. 9, 2017</li>
