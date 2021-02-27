@@ -1,7 +1,7 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS = pointer
+PROGRAMS = verify_password pointer
 
 all:: $(PROGRAMS)
 

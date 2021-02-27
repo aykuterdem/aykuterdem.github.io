@@ -1,7 +1,7 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS = memory_errors memory
+PROGRAMS = memory_errors memory diamond
 
 all:: $(PROGRAMS)
 
