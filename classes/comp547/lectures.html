@@ -89,21 +89,32 @@
   				</ul>
   				</p>-->
  
- <!-- Lecture 8-9 
+ <!-- Lecture 8-9 -->
    				<hr>
-  				<h2>Lecture 8: Generative Adversarial Networks (<a href="slides/lect8-generative-adversarial-networks.pdf">slides</a>)</h2>
+  				<h2>Lecture 8-9: Generative Adversarial Networks (<a href="slides/lect8-9-generative-adversarial-networks.pdf">slides</a>)</h2>
   				<p><i>generative adversarial networks (GANs), mode collapse, conditional GANs, applications of GANs</i></p>
   				<p>Please study the following material in preparation for the class:</p>
-  				<h3>Required Reading:</h3>
+  				<h3>Required Reading (more <i class="fas fa-star fa-xs"></i>s denote higher priority):</h3>
   				<ul class="default">
   					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://www.deeplearningbook.org/contents/generative_models.html">Sections 20.10.4</a> of the <a href="http://www.deeplearningbook.org/">Deep Learning</a> textbook.</li>
   					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://papers.nips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf">Generative Adversarial Networks</a>, Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, NIPS 2014.</li>
-  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1511.06434">Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks</a>, Alec Radford, Luke Metz, Soumith Chintala, ICLR 2016.</li>
-  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf">Image-to-Image Translation with Conditional Adversarial Networks</a>, Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros, CVPR 2017</li>
-		  			<li><i class="fas fa-star fa-xs"></i><a href="https://openreview.net/pdf?id=BydrOIcle">Unrolled Generative Adversarial Networks</a>, Luke Metz, Ben Poole, David Pfau, Jascha Sohl-Dickstein, ICLR 2017./li>
+  					<li><i class="fas fa-star fa-xs"></i> <a href="https://openreview.net/pdf?id=BydrOIcle">Unrolled Generative Adversarial Networks</a>, Luke Metz, Ben Poole, David Pfau, Jascha Sohl-Dickstein, ICLR 2017./li>
 		  			<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1511.01844">A note on the evaluation of generative models</a>, Lucas Theis, Aäron van den Oord, Matthias Bethge, ICLR 2016.</li>
-		  			
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1511.06434">Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks</a>, Alec Radford, Luke Metz, Soumith Chintala, ICLR 2016.</li>
+  					
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://papers.nips.cc/paper/2016/hash/8a3363abe792db2d8761d6403605aeb7-Abstract.html">Improved Techniques for Training GANs</a>, Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen, Xi Chen, NIPS 2016.</li>
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><a href="http://proceedings.mlr.press/v70/arjovsky17a.html">Wasserstein Generative Adversarial Networks</a>, Martin Arjovsky, Soumith Chintala, Léon Bottou, ICML 2017.</li>
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://papers.nips.cc/paper/2017/hash/892c3b1c6dccd52936e27cbd0ff683d6-Abstract.html">Improved Training of Wasserstein GANs</a>, , .</li>
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://papers.nips.cc/paper/2017/hash/892c3b1c6dccd52936e27cbd0ff683d6-Abstract.html"></a>, Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron C. Courville, NIPS 2017.</li>
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1710.10196">Progressive Growing of GANs for Improved Quality, Stability, and Variation</a>, Tero Karras, Timo Aila, Samuli Laine, Jaakko Lehtinen, ICLR 2018.</li>
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://openreview.net/forum?id=B1QRgziT-">Spectral Normalization for Generative Adversarial Networks </a>, Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida, ICLR 2018.</li>
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="http://proceedings.mlr.press/v97/zhang19d.html">Self-Attention Generative Adversarial Networks</a>, Han Zhang, Ian Goodfellow, Dimitris Metaxas, Augustus Odena, ICML 2019.</li>	
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1809.11096">Large Scale GAN Training for High Fidelity Natural Image Synthesis</a>, Andrew Brock, Jeff Donahue, Karen Simonyan, ICLR 2019.</li>
+  					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://openreview.net/forum?id=HyxPx3R9tm">Variational Discriminator Bottleneck: Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow</a>, Xue Bin Peng, Angjoo Kanazawa, Sam Toyer, Pieter Abbeel, Sergey Levine, ICLR 2019.</li>		  			
+		  			<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf">Image-to-Image Translation with Conditional Adversarial Networks</a>, Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros, CVPR 2017</li>
 		  			<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks</a>, Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros, ICCV 2017</li>
+		  			<li><i class="fas fa-star fa-xs"></i> <a href="https://openreview.net/forum?id=S1ObKwC9">InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets</a>, Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, Pieter Abbeel, NIPS 2016.</li>
+		  			<li><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1907.02544">Large Scale Adversarial Representation Learning</a>, Jeff Donahue, Karen Simonyan, NeurIPS 2019.</li>
 		  			<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://openreview.net/pdf?id=B1ElR4cgg">Adversarially Learned Inference</a>, Vincent Dumoulin, Ishmael Belghazi, Ben Poole, Olivier Mastropietro, Alex Lamb, Martin Arjovsky, Aaron Courville, ICLR 2017.</li>
   				</ul>
   				<p>
@@ -121,15 +132,30 @@
 		  			<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html">From GAN to WGAN</a>, Lilian Weng</li>
 	  				<li>[Blog post] <a href="https://www.inference.vc/an-alternative-update-rule-for-generative-adversarial-networks/">An Alternative Update Rule for Generative Adversarial Networks</a>, Ferenc Huszár</li>	
 	  				<li><a href="https://distill.pub/2019/gan-open-problems/">Open Questions about Generative Adversarial Networks</a>, Distill, 2019.</li>	  	
+	  				<li><a href="https://papers.nips.cc/paper/2016/hash/04025959b191f8f9de3f924f0940515f-Abstract.html">Generating Videos with Scene Dynamics</a>, Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, NIPS 2016.</li>
+	  				<li><a href="https://arxiv.org/abs/1907.06571">Adversarial Video Generation on Complex Datasets</a>, Aidan Clark, Jeff Donahue, Karen Simonyan, arXiv preprint arXiv:1907.06571, 2019.</li>
+	  				<li><a href="https://papers.nips.cc/paper/2016/file/44f683a84163b3523afe57c2e008bc8c-Paper.pdf">Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling</a>, Jiajun Wu. Chengkai Zhang, Tianfan Xue,  William T. Freeman, Joshua B. Tenenbaum, NIPS 2016.</li>
+	  				<li><a href="https://openaccess.thecvf.com/content_ICCVW_2019/papers/NeurArch/Nguyen-Phuoc_HoloGAN_Unsupervised_Learning_of_3D_Representations_From_Natural_Images_ICCVW_2019_paper.pdf">HoloGAN: Unsupervised Learning of 3D Representations From Natural Images</a>, Thu Nguyen-Phuoc, Chuan Li, Lucas Theis, Christian Richardt, Yong-Liang Yang, ICCV 2019.</li>
+	  				<li><a href="https://tcwang0509.github.io/vid2vid/paper_vid2vid.pdf">Video-to-Video Synthesis</a>, Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Guilin Liu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NeurIPS 2018.</li>
+	  				<li><a href="https://arxiv.org/pdf/1808.07371.pdf">Everybody Dance Now</a>, Caroline Chan, Shiry Ginosar, Tinghui Zhou, Alexei A. Efros, ICCV 2019.</li>
+	  				<li><a href="https://arxiv.org/pdf/1612.03242v1.pdf">StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks</a>, Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas, ICCV 2017.</li>
+	  				<li><a href="https://arxiv.org/abs/1609.04802">Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network</a>, Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi, CVPR 2017.</li>
+	  				<li><a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Pathak_Context_Encoders_Feature_CVPR_2016_paper.pdf">Context Encoders: Feature Learning by Inpainting</a>, Deepak Pathak, Philipp Krahenbuhl, Jeff Donahue, Trevor Darrell, Alexei A. Efros, CVPR 2016.</li>
+	  				<li><a href="https://papers.nips.cc/paper/2016/file/45fbc6d3e05ebd93369ce542e8f2322d-Paper.pdf">Domain Separation Networks</a>, Konstantinos Bousmalis, George Trigeorgis, Nathan Silberman, Dilip Krishnan, Dumitru Erhan, NIPS 2016.</li>
+	  				<li><a href="https://arxiv.org/abs/1903.07291">Semantic Image Synthesis with Spatially-Adaptive Normalization</a>, Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu, CVPR 2019.</li>
+	  				<li><a href="https://hucvl.github.io/attribute_hallucination/">Manipulating Attributes of Natural Scenes via Hallucination</a>, Levent Karacan, Zeynep  Akata, Aykut  Erdem, Erkut Erdem, ACM Transactions on Graphics, November 2019, Article No: 7.</li>
+	  				<li><a href="http://www.icon.bilkent.edu.tr/docs/Dar-2019.pdf">Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks</a>, Salman Ul Hassan Dar, Mahmut Yurt, Levent Karacan, Aykut Erdem, Erkut Erdem, Tolga Çukur, IEEE Trans. Med. Imag., Vol. 38, Issue 10, pp. 2375-2388, October 2019.</li>
+	  				<li><a href="https://openreview.net/forum?id=ByMVTsR5KQ">Adversarial Audio Synthesis</a>, Chris Donahue, Julian McAuley, Miller Puckette, ICLR 2019.</li>
+	  				<li><a href="https://openreview.net/forum?id=ByOExmWAb">MaskGAN: Better Text Generation via Filling in the _______ </a>, William Fedus, Ian Goodfellow, Andrew M. Dai, ICLR 2018.</li>
   				</ul>
-  				</p>-->
+  				</p>
   				
  <!-- Lecture 7 -->
    				<hr>
   				<h2>Lecture 7: Variational Autoencoders (<a href="slides/lect7-variational-autoencoders.pdf">slides</a>) (<a href="https://kocuni.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c68030f9-4e09-419f-a61b-acec0075e877">video 1</a>) (<a href="https://kocuni.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5b100a6-200c-489d-8363-acee007400c1">video 2</a>)</h2>
 				<p><i>latent variable models, variational autoencoders, importance weighted autoencoders, variational lower bound/evidence lower bound, likelihood ratio gradients vs. reparameterization trick gradients, Beta-VAE, variational dequantization</i></p>
   				<p>Please study the following material in preparation for the class:</p>
-  				<h3>Required Reading:</h3>
+  				<h3>Required Reading (more <i class="fas fa-star fa-xs"></i>s denote higher priority):</h3>
   				<ul class="default">
   					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://www.deeplearningbook.org/contents/generative_models.html">Sections 20.10.3</a> of the <a href="http://www.deeplearningbook.org/">Deep Learning</a> textbook.</li>
   					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/pdf/1906.02691.pdf">Chapter 2 of An Introduction to Variational Autoencoders</a>, Kingma and Welling.</li>
