@@ -88,6 +88,46 @@
   					<li></li>
   				</ul>
   				</p>-->
+  				
+ <!-- Lecture 13 --> 
+   				<hr>
+  				<h2>Lecture 13: Pretraining Language Models (<a href="slides/lect13-pretraining-language-models.pdf">slides</a>)</h2>
+  				<p><i></i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Required Reading (more <i class="fas fa-star fa-xs"></i>s denote higher priority):</h3>
+  				<ul class="default">
+  					<li><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/pdf/1708.00107.pdf">Learned in Translation: Contextualized Word Vectors</a>, Bryan McCann, James Bradbury, Caiming Xiong, Richard Socher, NIPS 2016.</li>
+  					<li><i class="fas fa-star fa-xs"></i> <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probabilistic Language Model</a>, Yoshua Bengio, Réjean Ducharme, Pascal Vincent, Christian Jauvin, JMLR, Vol 3., 2003.</li>
+  					<li><i class="fas fa-star fa-xs"></i> <a href="https://www.isca-speech.org/archive/archive_papers/interspeech_2010/i10_1045.pdf">Recurrent neural network based language model</a>, Tomáš Mikolov, Martin Karafiát, Lukáš Burget, Jan “Honza” Černocky, Sanjeev Khudanpur, Interspeech 2010.</li>
+  					<li><i class="fas fa-star fa-xs"></i> <a href="https://icml.cc/Conferences/2011/papers/524_icmlpaper.pdf">Generating Text with Recurrent Neural Networks</a>, Ilya Sutskever, James Martens, Geoffrey Hinton, ICML 2011.</li>
+  					<li><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1308.0850">Generating Sequence with Recurrent Neural Networks</a>, A. Graves, ArXiV</li>
+  					<li><i class="fas fa-star fa-xs"></i> <a href="https://papers.nips.cc/paper/2015/file/f442d33fa06832082290ad8544a8da27-Paper.pdf">Skip-Thought Vectors</a>, Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, Sanja Fidler, NIPS 2015.</li>
+					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://papers.nips.cc/paper/2015/file/7137debd45ae4d0ab9aa953017286b20-Paper.pdf">Semi-supervised Sequence Learning</a>, Andrew M. Dai, Quoc V. Le, NIPS 2015.</li>
+					<li><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1602.02410">Exploring the Limits of Language Modeling</a>, Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, Yonghui Wu, ArXiv preprint arXiv:1602.02410, 2016.</li>
+					<li><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1704.01444">Learning to Generate Reviews and Discovering Sentiment</a>, Alec Radford, Rafal Jozefowicz, Ilya Sutskever, arXiv preprint 1704.01444, 2017.</li>
+					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://www.aclweb.org/anthology/N18-1202/">Deep Contextualized Word Representations</a>, Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer, NAACL 2018./li>
+					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf">Improving Language Understanding by Generative Pre-Training</a>, Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, OpenAI Report, 2018.</li>
+					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://www.aclweb.org/anthology/N19-1423/">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a>, Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova, NAACL 2019.</li>
+					<li><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i> <a href="https://arxiv.org/abs/1907.11692"></a>, Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov, ArXiv preprint ArXiv:1907.11692, 2019.</li>
+					<li><i class="fas fa-star fa-xs"></i> <a href="https://openreview.net/forum?id=r1xMH1BtvB">ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators</a>, Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning, ICLR 2020.</li>
+					<li><i class="fas fa-star fa-xs"></i> <a href="">Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</a>, Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu, JMLR 21(140), 2020.</li>
+					<li><i class="fas fa-star fa-xs"><i class="fas fa-star fa-xs"><i class="fas fa-star fa-xs"></i> <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf</a>, Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, OpenAI Report, 2019.</li>
+					<li><i class="fas fa-star fa-xs"><i class="fas fa-star fa-xs"><i class="fas fa-star fa-xs"></i> <a href="https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html">Language Models are Few-Shot Learners</a>, Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah et al., NeurIPS 2020.</li>
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>Jacob Devlin's lecture on <a href="https://www.youtube.com/watch?v=knTc-NQSjKA">BERT and Other Pre-trained Language Models</a></li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li>[Blog post] <a href="http://jalammar.github.io/illustrated-bert/">The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)</a>, Jay Alammar.</li>
+  					<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2019/01/31/generalized-language-models.html">Generalized Language Models</a>, Lilian Weng.</li>
+  					<li><a href="https://www.aclweb.org/anthology/2020.tacl-1.54/">A Primer in BERTology: What we know about how BERT works</a>, Anna Rogers, Olga Kovaleva, Anna Rumshisky, TACL, Vol. 8, 2020.</li>
+  				</ul>
+  				</p> 				
  
  <!-- Lecture 12 --> 
    				<hr>
