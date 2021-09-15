@@ -199,6 +199,28 @@
 				background: #555555;
 				color: #fff;
 			}
+		
+		table.default2 {
+			width: 100%;
+		}
+
+			table.default2 tbody tr {
+				border-bottom: solid 1px #fff;
+			}
+			
+			table.default2 tbody tr:nth-child(even) {
+				background-color: #fff;
+			}
+
+			table.default2 td {
+				padding: 0.5em 1em 0.5em 1em;
+				vertical-align: top;
+			}
+			
+			table.default2 thead {
+				background: #555555;
+				color: #fff;
+			}
 
 /* Wrapper */
 
