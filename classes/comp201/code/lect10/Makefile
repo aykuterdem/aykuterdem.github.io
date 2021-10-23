@@ -1,7 +1,7 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS =  bubble_sort print_array count_matches
+PROGRAMS = swap swap_ends rotate
 
 all:: $(PROGRAMS)
 

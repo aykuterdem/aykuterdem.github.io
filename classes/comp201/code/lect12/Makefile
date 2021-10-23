@@ -1,12 +1,13 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS = hello
+PROGRAMS =  int_stack generic_stack
 
 all:: $(PROGRAMS)
 
 CC = gcc
-CFLAGS = -v -std=gnu99 -Wall
+CFLAGS = -g3 -O0 -std=gnu99 -Wall $$warnflags
+export warnflags = -Wfloat-equal -Wtype-limits -Wpointer-arith -Wshadow -Winit-self -fno-diagnostics-show-option
 LDFLAGS =
 LDLIBS =
 

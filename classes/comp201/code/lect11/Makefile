@@ -1,7 +1,7 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS =  int_stack generic_stack
+PROGRAMS =  bubble_sort print_array count_matches
 
 all:: $(PROGRAMS)
 
