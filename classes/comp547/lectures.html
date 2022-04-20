@@ -168,11 +168,11 @@
   				</p> 				
 --> 
  <!-- Lecture 12 --> 
- <!--  				<hr>
-  				<h2>Lecture 12: Self-Supervised Learning (<a href="slides/lect12-self-supervised-learning.pdf">slides</a>) (<a href="https://kocuni.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5cdfecea-f996-4725-9f74-ad160077d95c">video 1</a>) (<a href="https://kocuni.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=16c6534b-f7ea-42c3-a1fd-ad1800753ac5">video 2</a>)</h2>
+   				<hr>
+  				<h2>Lecture 12: Self-Supervised Learning <!--(<a href="slides/lect12-self-supervised-learning.pdf">slides</a>) (<a href="">lecture 1</a>) (<a href="">lecture 2</a>)--></h2>
   				<p><i>denoising autoencoder, in-painting, colorization, split-brain autoencoder, proxy tasks in computer vision: relative patch prediction, jigjaw puzzles, rotations, contrastive learning: word2vec, contrastive predictive coding, instance discrimination, current instance discrimination models</i></p>
   				<p>Please study the following material in preparation for the class:</p>
-  				<h3>Required Reading:</h3>
+  				<h3>Key Readings:</h3>
   				<ul class="default">
   					<li><a href="https://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf">Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion</a>, Pascal Vincent, Hugo Larochelle, Isabelle Lajoie, Yoshua Bengio, Pierre-Antoine Manzagol, Journal of Machine Learning Research 11, 2010.</li>
   					<li><a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Pathak_Context_Encoders_Feature_CVPR_2016_paper.pdf">Context Encoders: Feature Learning by Inpainting</a>, Deepak Pathak, Philipp Krähenbühl, Jeff Donahue, Trevor Darrell, Alexei A. Efros, CVPR 2016.</li>
@@ -186,26 +186,33 @@
   					<li><a href="https://arxiv.org/pdf/1807.03748.pdf">Representation Learning with Contrastive Predictive Coding</a>, Aaron van den Oord, Yazhe Li, Oriol Vinyals, arXiv Preprint arXiv:1807:1807.03748v2, 2019</li>
   					<li><a href="http://proceedings.mlr.press/v119/henaff20a.html">Data-Efficient Image Recognition with Contrastive Predictive Coding</a>, Olivier Henaff et al., ICML 2020.</li>
   					<li><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.pdf">Momentum Contrast for Unsupervised Visual Representation Learning</a>, Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick, CVPR 2020.</li>
-  					<li><a href="https://arxiv.org/pdf/2002.05709.pdf">A Simple Framework for Contrastive Learning of Visual Representations</a>, Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton, arXiv preprint arXiv:2002.05709, 2020.</li>
+  					<li><a href="https://arxiv.org/pdf/2002.05709.pdf">A Simple Framework for Contrastive Learning of Visual Representations</a>, Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton, ICML 2020.</li>
   					<li><a href="https://arxiv.org/pdf/2003.04297.pdf">Improved Baselines with Momentum Contrastive Learning</a>, Xinlei Chen, Haoqi Fan, Ross Girshick, Kaiming He, arXiv preprint arXiv:2003.04297, 2020</li>
   					<li><a href="https://papers.nips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html">Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning</a>, Jean-Bastien Grill et al., NeurIPS 2020.</li> 
+  					<li><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf">Emerging Properties in Self-Supervised Vision Transformers</a>, Mathilde Caron, Hugo Touvron, Ishan Misra, Herve Jegou, Julien Mairal, Piotr Bojanowski, Armand Joulin, ICCV 2021.</li>
+  					<li><a href="https://arxiv.org/pdf/2103.03230.pdf">Barlow Twins: Self-Supervised Learning via Redundancy Reduction</a>, Jure Zbontar, Li Jing, Ishan Misra, Yann LeCun, Stephane Deny, ICML 2021.</li>
+  					<li><a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models From Natural Language Supervision</a>, Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever, ICML 2021.</li>
   				</ul>
   				<p>
   				<h3>Suggested Video Material:</h3>
   				<ul class="default">
 	  				<li>Ishan Misra's lecture on <a href="https://www.youtube.com/watch?v=0KeR6i1_56g">Self-supervised learning (SSL) in computer vision</a></li>
 	  				<li>Andrei Bursuc and Relja Arandjelović's tutorial on <a href="https://www.youtube.com/watch?v=MaGudzppu3I&t=11567s">Leveraging Self-Supervision</a> at CVPR 2020.</li> 
+	  				<li>Andrei Bursuc, Spyros Gidaris, Aäron van den Oord, Spyros Gidaris, Andrei Bursuc, Mathilde Caron, Jean-Baptiste Alayrac and Adrià Recasen's tutorial titled <a href="https://www.youtube.com/watch?v=MdD4UMshl1Q">Leave Those Nets Alone: Advances in Self-Supervised Learning</a> at CVPR 2021.</li>
   				</ul><br>
   				</p>
   				<p>
   				<h3>Additional Resources:</h3>
-  				<ul class="default">
-  					<li>[Blog post] <a href="https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html">Contrastive Self-Supervised Learning</a>, Ankesh Anand.</li>
+  				<ul class="default">				
   					<li>[Blog post] <a href="https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence">Self-supervised learning: The dark matter of intelligence</a>, Yann LeCun and Ishan Misra.</li>
   					<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html">Self-Supervised Representation Learning</a>, Lilian Weng.</li>
+  					<li>[Blog post] <a href="https://lilianweng.github.io/posts/2021-05-31-contrastive/">Contrastive Representation Learning</a>, Lilian Weng</li>
+  					<li>[Blog post] <a href="https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html">Contrastive Self-Supervised Learning</a>, Ankesh Anand.</li>
+  					<li><a href="https://ssl-demos.metademolab.com/home">SSL Demos</a>, Meta AI.</li>
+  					<li><a href="https://www.computer.org/csdl/journal/tp/2021/11/09086055/1jyxxpAlRJe">Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey</a>, Longlong Jing, Yingli Tian, IEEE Transactions on Pattern Analysis and Machine Intelligence, Nov. 2021.</li>
   				</ul>
   				</p>
- -->
+
 <!-- Lecture 11 -->
    				<hr>
   				<h2>Lecture 11: Strengths and Weaknesses of Current Models (<a href="slides/lect11-strengths-and weaknesses.pdf">slides</a>) (<a href="https://kocuni.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b93df79-bd65-4e41-813b-ae7b00ede82c">lecture 1</a>) <!--(<a href="">lecture 2</a>)--></h2>
