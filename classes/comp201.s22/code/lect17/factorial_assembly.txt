@@ -1,0 +1,13 @@
+0000000000400546 <factorial>:
+  400546:	48 83 ff 01          	cmp    $0x1,%rdi
+  40054a:	7e 13                	jle    40055f <factorial+0x19>
+  40054c:	53                   	push   %rbx
+  40054d:	48 89 fb             	mov    %rdi,%rbx
+  400550:	48 8d 7f ff          	lea    -0x1(%rdi),%rdi
+  400554:	e8 ed ff ff ff       	callq  400546 <factorial>
+  400559:	48 0f af c3          	imul   %rbx,%rax
+  40055d:	eb 06                	jmp    400565 <factorial+0x1f>
+  40055f:	b8 01 00 00 00       	mov    $0x1,%eax
+  400564:	c3                   	retq   
+  400565:	5b                   	pop    %rbx
+  400566:	c3                   	retq   
