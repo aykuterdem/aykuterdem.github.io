@@ -1,7 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("academicons.min.css");
-@import url("https://fonts.googleapis.com/css?family=Raleway:200");
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 /*
 	Solarize by TEMPLATED
 	templated.co @templatedco
@@ -29,7 +29,7 @@
 
 	body, input, select, textarea {
 		color: #333;
-		font-family: 'Work Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 300;
 		line-height: 1.65em;
 	}
@@ -62,6 +62,8 @@
 		}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Playfair Display', serif;
+		font-weight: 200;
 		color: inherit;
 		font-weight: 700;
 	}
@@ -224,7 +226,6 @@
 		}
 		
 			.wrapper.style2 .image {
-				display: block;
 				width: 60%;
 				margin: 0em auto 2em auto;
 			}
@@ -350,11 +351,12 @@
 /* Banner */
 
 	#banner {
-		font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: 'Playfair Display', serif;
+		font-weight: 200;
 		padding: 2em 0em 1em 0em;
 		text-align: center;
 		color: white;
-		min-height: 300px;
+		min-height: 360px;
 	}
 
 		#banner .container {
@@ -382,8 +384,9 @@
 /* Banner */
 
 	#banner2 {
-		font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: 'Playfair Display', serif;
 		padding: 2em 0em 1em 0em;
+		font-weight: 200;
 		text-align: center;
 		color: black;
 	}
