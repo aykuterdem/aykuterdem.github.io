@@ -1,0 +1,46 @@
+Naming
+======
+Following consice rules for naming parameters, functions, files, and etc. not only makes your code more readable, but only is a sign of professional programmer. These rules may vary according to the programming language or standard that you want to follow. Pick names that match the semantics and role of the underlying entities, within reason. Avoid abbreviations unless they are well known. After picking a good name, make sure to use consistent capitalization for the name. Here we suggest some guidelines:
+
+Variables
+----------
+should be nouns (as they represent state). The name should be camel case, and start with an upper case letter (e.g. Leader or Boats).
+
+Functions
+----------
+should be verb phrases (as they represent actions), and command-like function should be imperative. The name should be camel case, and start with a lower case letter (e.g. openFile() or isFoo()).
+
+Constants 
+---------
+The entire word should be capitalized.
+
+.. code-block:: c
+
+   const PI = 3.14159;
+
+Macros
+-------
+For macros, use ALL_CAPS separated by underscore. 
+
+.. code-block:: c
+
+   #define FLAG_FOO 0x0
+
+If a macro's replacement is not just a literal, enclose it in parentheses
+
+.. code-block:: c
+
+   #define FLAG_BAZ (0x1 << 3)
+
+Enum Declarations
+-----------------
+(e.g. enum Foo {...}) are types, so they should follow the naming conventions for types. A common use for enums is as a discriminator for a union, or an indicator of a subclass. When an enum is used for something like this, it should have a Kind suffix (e.g. ValueKind).
+
+.. code-block:: c
+
+   typedef enum {
+   State_Foo,
+   State_Bar,
+   State_Baz,
+   State_Qux
+   } State;
