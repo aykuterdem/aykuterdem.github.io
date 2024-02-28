@@ -388,26 +388,27 @@
  -->
  				
  <!-- Lecture 6 -->
- <!-- 				<hr>
+  				<hr>
   				<h2>Lecture 6: Normalizing Flow Models (<a href="slides/lect6-normalizing-flow-models.pdf">slides</a>)</h2>
   				<p><i>1-D flows, change of variables, autoregressive flows, inverse autoregressive flows, affine flows, RealNVP, Glow, Flow++, FFJORD, multi-scale flows, dequantization</i></p>
   				<p>Please study the following material in preparation for the class:</p>
   				<h3>Key Readings:</h3>
   				<ul class="default">
-  					<li><a href="https://arxiv.org/abs/1410.8516">NICE: Non-linear Independent Components Estimation</a>, Laurent Dinh, David Krueger, and Yoshua Bengio, ICLR 2015.</li>
-  					<li><a href="https://papers.nips.cc/paper/2016/file/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Paper.pdf">Improved variational inference with inverse autoregressive flow</a>, Durk P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling, NIPS 2016.</li>
-  					<li><a href="https://openreview.net/forum?id=HkpbnH9lx">Density estimation using Real NVP</a>, Laurent Dinh, Jascha Sohl-Dickstein, Samy Bengio, ICLR 2017.</li>
+  					<li><b>NICE:</b> <a href="https://arxiv.org/abs/1410.8516">NICE: Non-linear Independent Components Estimation</a>, Laurent Dinh, David Krueger, and Yoshua Bengio, ICLR 2015.</li>
+  					<li><b>IAF:</b> <a href="https://papers.nips.cc/paper/2016/file/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Paper.pdf">Improved variational inference with inverse autoregressive flow</a>, Durk P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling, NIPS 2016.</li>
+  					<li><b>RealNVP:</b> <a href="https://openreview.net/forum?id=HkpbnH9lx">Density estimation using Real NVP</a>, Laurent Dinh, Jascha Sohl-Dickstein, Samy Bengio, ICLR 2017.</li>
   					<li><a href="https://papers.nips.cc/paper/2017/file/6c1da886822c67822bcf3679d04369fa-Paper.pdf">Masked Autoregressive Flow for Density Estimation</a>, George Papamakarios, Theo Pavlakou, Iain Murray, NIPS 2017.</li>
   					<li><a href="http://proceedings.mlr.press/v80/huang18d/huang18d.pdf">Neural autoregressive flows</a>, Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville, ICML 2018.</li>
   					<li><a href="https://papers.nips.cc/paper/2018/file/d139db6a236200b21cc7f752979132d0-Paper.pdf">Glow: Generative Flow with Invertible 1×1 Convolutions</a>, Diederik P. Kingma, Prafulla Dhariwal, NeurIPS 2018.</li>
-  					<li><a href="http://proceedings.mlr.press/v97/ho19a.html">Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design</a>, Jonathan Ho, Xi Chen, Aravind Srinivas, Yan Duan, Pieter Abbeel, ICML 2019.</li>
+  					<li><b>Flow++L</b> <a href="http://proceedings.mlr.press/v97/ho19a.html">Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design</a>, Jonathan Ho, Xi Chen, Aravind Srinivas, Yan Duan, Pieter Abbeel, ICML 2019.</li>
   					<li><a href="https://arxiv.org/pdf/1808.03856.pdf">Neural Importance Sampling</a>, Thomas Müller, Brian McWilliams, Fabrice Rousselle, Markus Gross, Jan Novák, SIGGRAPH 2019.</li> 					
-  					<li><a href="https://openreview.net/forum?id=rJxgknCcK7">Ffjord: Free-form continuous dynamics for scalable reversible generative models</a>, Will Grathwohl, Ricky T. Q. Chen, Jesse Bettencourt, Ilya Sutskever, David Duvenaud, ICLR 2019.</li>
+  					<li><b>Ffjord</b>: <a href="https://openreview.net/forum?id=rJxgknCcK7">Ffjord: Free-form continuous dynamics for scalable reversible generative models</a>, Will Grathwohl, Ricky T. Q. Chen, Jesse Bettencourt, Ilya Sutskever, David Duvenaud, ICLR 2019.</li>
   					  					<li><a href="https://openreview.net/pdf/99885355a0f127b35ddbf715679d8fa3a14e9a99.pdf">Residual Flows for Invertible Generative Modeling</a>, Ricky T. Q. Chen, Jens Behrmann, David Duvenaud, Jörn-Henrik Jacobsen, NeurIPS 2019.</li>
-  					<li><a href="">SRFlow: Learning the Super-Resolution Space with Normalizing Flow</a>, Andreas Lugmayr, Martin Danelljan, Luc Van Gool, Radu Timofte, ECCV 2020.</li>
+                  <li><b>MintNet:</b> <a href="https://arxiv.org/pdf/1907.07945.pdf">MintNet: Building Invertible Neural Networks with Masked Convolutions</a>, Yang Song, Chenlin Meng, Stefano Ermon, NeurIPS 2019.</li>
+  					<li><b>SRFLow:</b> <a href="">SRFlow: Learning the Super-Resolution Space with Normalizing Flow</a>, Andreas Lugmayr, Martin Danelljan, Luc Van Gool, Radu Timofte, ECCV 2020.</li>
   					<li><a href=""></a>.</li>
   					<li><a href="https://aclanthology.org/2021.acl-long.355.pdf">Continuous Language Generative Flow</a>, Zineng Tang, Shiyue Zhang, Hyounghun Kim, Mohit Bansal. ACL 2021.</li>
-  					<li><a href="http://proceedings.mlr.press/v97/kim19b.html">FloWaveNet : A Generative Flow for Raw Audio</a>, Sungwon Kim, Sang-gil Lee, Jongyoon Song, Jaehyeon Kim, Sungroh Yoon, ICML 2019.</li>
+  					<li><b>FloWaveNet:</b> <a href="http://proceedings.mlr.press/v97/kim19b.html">FloWaveNet : A Generative Flow for Raw Audio</a>, Sungwon Kim, Sang-gil Lee, Jongyoon Song, Jaehyeon Kim, Sungroh Yoon, ICML 2019.</li>
   					<li><a href="https://arxiv.org/abs/2106.03135">Go with the Flows: Mixtures of Normalizing Flows for Point Cloud Generation and Reconstruction</a>, Janis Postels, Mengya Liu, Riccardo Spezialetti, Luc Van Gool, Federico Tombari, 3DV 2021.</li>
   				</ul>
   				<p>
@@ -428,7 +429,7 @@
   					<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html">Flow-based Deep Generative Models</a>, Lilian Weng</li>
   				</ul>
   				</p>
- -->
+ 
   				 				
  <!-- Lecture 5 -->
    				<hr>
