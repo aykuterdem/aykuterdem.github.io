@@ -1,0 +1,47 @@
+Indentation
+=============
+Writing the code with proper and consistent indentation and spacing rules in crucial for a more readable code. 
+
+
+Braces
+--------
+The open brace ({) goes at the end of the line before the start of the code block.
+The close brace (}) goes on its own line, indented to match the beginning of the line containing the corresponding open brace, and include a descriptor on the closing brace line that indicates which opening brace it matches.
+
+Code Inside Braces 
+------------------
+Indent one level for each level of curly braces ({}).
+
+Code Inside conditional statements and loops 
+--------------------------------------------
+Indent one level for lines of code in conditional statements and loops.
+
+Continued lines 
+---------------
+When a statement continues across two or more lines, indent the second and remaining lines an equal amount past the start of the first line of the statement.
+
+Parameter Assignments
+----------------------
+Place the equal characters of multiple assigments in same column of your code. Check the comprehensive example for this.
+
+
+Example of proper indentation technique:
+
+.. code-block:: c
+
+   int RequestedAmount = INITIAL_AMOUNT;
+   int temp            = 200;
+
+   int withdraw (int RequestedAmount) {
+      if (Balance < RequestedAmount) {              
+         return 0;                                
+      }                                                
+      else {
+         Balance = Balance - RequestedAmount;
+         printf("Withdrawal of %4.2f
+                           successful, leaving %4.2f.",
+                           RequestedAmount, Balance);             
+         return 1;
+      }                                                
+   }                                                   
+
