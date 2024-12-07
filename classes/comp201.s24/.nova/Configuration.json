@@ -1,5 +1,6 @@
 {
   "workspace.art_style" : 0,
   "workspace.color" : 12,
-  "workspace.name" : "COMP201"
+  "workspace.name" : "COMP201",
+  "workspace.preview_root" : "..\/comp201.f24"
 }
