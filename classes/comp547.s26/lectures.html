@@ -1,0 +1,612 @@
+<!DOCTYPE HTML>
+<!--
+	Solarize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0  license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>COMP547: Deep Unsupervised Learning</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script  src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+		<link href="css/fontawesome.css" rel="stylesheet">
+		<link href="css/brands.css" rel="stylesheet">
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header Wrapper -->
+			<div class="wrapper style11">
+			
+			<!-- Header -->
+				<div id="header" style="color: #bbb">
+					<div class="container">
+						<!-- Logo -->
+							<h1><a href="#" id="logo">COMP547</a></h1>
+
+						<nav id="nav">
+								<ul>
+									<li class="active"><a href="index.html#div_courseinfo">About</a></li>
+									<li><a href="index.html#div_schedule">Schedule</a></li>
+									<li><a href="presentations.html">Presentations</a></li>
+									<li><a href="assignments.html">Assignments</a></li>
+									<li><a href="project.html">Project</a></li>
+									<li><a href="https://learn.hub.ku.edu.tr"><i class="fas fa-chalkboard"></i></a></li>
+								</ul>
+							</nav>
+	
+					</div>
+				</div>
+				
+			<!-- Banner -->
+				<div id="banner" style="color: black">
+					<section class="container">
+						<h2>COMP547: Deep Unsupervised Learning</h2>
+						<span>Spring 2026</span>
+					</section>
+				</div>
+			</div>
+
+			<!-- Course Information -->
+			<div class="wrapper style2">
+			<section class="container">
+				<h1 class="content-subhead">Detailed Syllabus and Lectures</h1>
+
+<!-- Lecture ## 
+   				<hr>
+  				<h2>Lecture ##: ## (<a href="slides/lect###.pdf">slides</a>)</h2>
+  				<p><i></i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Required Reading (more s denote higher priority):</h3>
+  				<ul class="default">
+  					<li><a href="#">##</a>, ##</li>
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>'s <a href="#">###</a>, ##</li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li></li>
+  				</ul>
+  				</p>-->
+  				
+<!-- Lecture 13 -->
+				
+
+<!-- Lecture 11 --> 
+   				<hr>
+  				<h2>Lecture 11: Self-Supervised Learning (<a href="slides/lect11-self-supervised-learning.pdf">slides</a>)</h2>
+  				<p><i>denoising autoencoder, in-painting, colorization, split-brain autoencoder, proxy tasks in computer vision: relative patch prediction, jigjaw puzzles, rotations, contrastive learning: word2vec, contrastive predictive coding, instance discrimination, current instance discrimination models</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Key Readings:</h3>
+  				<ul class="default">
+  					<li><a href="https://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf">Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion</a>, Pascal Vincent, Hugo Larochelle, Isabelle Lajoie, Yoshua Bengio, Pierre-Antoine Manzagol, Journal of Machine Learning Research 11, 2010.</li>
+  					<li><a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Pathak_Context_Encoders_Feature_CVPR_2016_paper.pdf">Context Encoders: Feature Learning by Inpainting</a>, Deepak Pathak, Philipp Krähenbühl, Jeff Donahue, Trevor Darrell, Alexei A. Efros, CVPR 2016.</li>
+  					<li><a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Split-Brain_Autoencoders_Unsupervised_CVPR_2017_paper.pdf">Split-Brain Autoencoders: Unsupervised Learning by Cross-Channel Prediction</a>, Richard Zhang, Phillip Isola, Alexei A. Efros, CVPR 2017.</li>
+  					<li><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf">Unsupervised Visual Representation Learning by Context Prediction</a>, Carl Doersch, Abhinav Gupta, Alexei A. Efros, ICCV 2015.</li>
+  					<li><a href="https://arxiv.org/abs/1603.09246">Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles</a>, Mehdi Noroozi, Paolo Favaro, ECCV 2016.</li>
+  					<li><a href="https://openreview.net/pdf?id=S1v4N2l0-">Unsupervised representation learning by predicting image rotations</a>, Spyros Gidaris, Praveer Singh, Nikos Komodakis, ICLR 2018.</li>
+  					<li><a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Carl_Vondrick_Self-supervised_Tracking_by_ECCV_2018_paper.pdf">Tracking Emerges by Colorizing Videos</a>, Carl Vondrick, Abhinav Shrivastava, Alireza Fathi, Sergio Guadarrama, Kevin Murphy, ECCV 2018.</li>
+  					<li><a href="https://arxiv.org/abs/1301.3781">Efficient Estimation of Word Representations in Vector Space</a>, Tomás Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean, ICLR Workshop Poster, 2013.</li>
+  					<li><a href="https://arxiv.org/pdf/1808.06670.pdf">Learning Deep Representations by Mutual Information Estimation and Maximization</a>, R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio, ICLR 2019.</li>
+  					<li><a href="https://arxiv.org/pdf/1807.03748.pdf">Representation Learning with Contrastive Predictive Coding</a>, Aaron van den Oord, Yazhe Li, Oriol Vinyals, arXiv Preprint arXiv:1807:1807.03748v2, 2019</li>
+  					<li><a href="http://proceedings.mlr.press/v119/henaff20a.html">Data-Efficient Image Recognition with Contrastive Predictive Coding</a>, Olivier Henaff et al., ICML 2020.</li>
+  					<li><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.pdf">Momentum Contrast for Unsupervised Visual Representation Learning</a>, Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick, CVPR 2020.</li>
+  					<li><a href="https://arxiv.org/pdf/2002.05709.pdf">A Simple Framework for Contrastive Learning of Visual Representations</a>, Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton, ICML 2020.</li>
+  					<li><a href="https://arxiv.org/pdf/2003.04297.pdf">Improved Baselines with Momentum Contrastive Learning</a>, Xinlei Chen, Haoqi Fan, Ross Girshick, Kaiming He, arXiv preprint arXiv:2003.04297, 2020</li>
+  					<li><a href="https://papers.nips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html">Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning</a>, Jean-Bastien Grill et al., NeurIPS 2020.</li> 
+  					<li><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf">Emerging Properties in Self-Supervised Vision Transformers</a>, Mathilde Caron, Hugo Touvron, Ishan Misra, Herve Jegou, Julien Mairal, Piotr Bojanowski, Armand Joulin, ICCV 2021.</li>
+  					<li><a href="https://arxiv.org/pdf/2103.03230.pdf">Barlow Twins: Self-Supervised Learning via Redundancy Reduction</a>, Jure Zbontar, Li Jing, Ishan Misra, Yann LeCun, Stephane Deny, ICML 2021.</li>
+  					<li><a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models From Natural Language Supervision</a>, Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever, ICML 2021.</li>
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+	  				<li>Ishan Misra's lecture on <a href="https://www.youtube.com/watch?v=0KeR6i1_56g">Self-supervised learning (SSL) in computer vision</a></li>
+	  				<li>Andrei Bursuc and Relja Arandjelović's tutorial on <a href="https://www.youtube.com/watch?v=MaGudzppu3I&t=11567s">Leveraging Self-Supervision</a> at CVPR 2020.</li> 
+	  				<li>Andrei Bursuc, Spyros Gidaris, Aäron van den Oord, Spyros Gidaris, Andrei Bursuc, Mathilde Caron, Jean-Baptiste Alayrac and Adrià Recasen's tutorial titled <a href="https://www.youtube.com/watch?v=MdD4UMshl1Q">Leave Those Nets Alone: Advances in Self-Supervised Learning</a> at CVPR 2021.</li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">				
+  					<li>[Blog post] <a href="https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence">Self-supervised learning: The dark matter of intelligence</a>, Yann LeCun and Ishan Misra.</li>
+  					<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html">Self-Supervised Representation Learning</a>, Lilian Weng.</li>
+  					<li>[Blog post] <a href="https://lilianweng.github.io/posts/2021-05-31-contrastive/">Contrastive Representation Learning</a>, Lilian Weng</li>
+  					<li>[Blog post] <a href="https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html">Contrastive Self-Supervised Learning</a>, Ankesh Anand.</li>
+  					<li><a href="https://ssl-demos.metademolab.com/home">SSL Demos</a>, Meta AI.</li>
+  					<li><a href="https://www.computer.org/csdl/journal/tp/2021/11/09086055/1jyxxpAlRJe">Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey</a>, Longlong Jing, Yingli Tian, IEEE Transactions on Pattern Analysis and Machine Intelligence, Nov. 2021.</li>
+  				</ul>
+  				</p>
+
+
+<!-- Lecture 10 -->
+<!--   				<hr>
+  				<h2>Lecture 10: Strengths and Weaknesses of Current Models (<a href="slides/lect10-strengths-and weaknesses.pdf">slides</a>)</h2>
+  				<p><i>a critique of autoregressive models, flow-based models, latent variable models, implicit models, and diffusion models.</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>Shakir Mohamed's lecture on <a href="https://www.youtube.com/watch?v=H4VGSYGvJiA">Unsupervised learning and generative models</a></li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li><a href="https://arxiv.org/pdf/2103.04922.pdf">Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models</a>, Sam Bond-Taylor, Adam Leach, Yang Long, Chris G. Willcocks, arXiv Preprint arXiv:2103.04922, 2021.</li>
+  					<li><a href="https://benanne.github.io/2020/09/01/typicality.html#right-level">Musings on typicality, Sander Dieleman</a></li>
+  				</ul>			
+  				</p>			 				
+-->
+
+<!-- Lecture 10 --> 
+<hr>
+<h2>Lecture 10: Video Generation (<a href="slides/lect10-video-generation.pdf">slides</a>)</h2>
+<p><i>early approaches, open-source and closed-source models, training-Efficient techniques, storyboard approach, long video generation, multimodal-guided generation</i></p>
+<p>Please study the following material in preparation for the class:</p>
+<h3>Key Readings:</h3>
+<ul class="default">
+  <li><a href="https://arxiv.org/abs/2309.15818">Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation</a>, David Junhao Zhang, Jay Zhangjie Wu, Jia-Wei Liu, Rui Zhao, Lingmin Ran, Yuchao Gu, Difei Gao, Mike Zheng Shou, IJCV, Vol. 133, 2024.</li>
+  <li><a href="https://arxiv.org/abs/2204.03458">Video Diffusion Models</a>, Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet, NeurIPS 2022.</li>
+  <li><a href="https://arxiv.org/abs/2209.14792">Make-A-Video: Text-to-Video Generation without Text-Video Data</a>, Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, Devi Parikh, Sonal Gupta, Yaniv Taigman, ICLR 2023.</li>
+  <li><a href="https://arxiv.org/abs/2210.02303">Imagen Video: High Definition Video Generation with Diffusion Models</a>, Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, Mohammad Norouzi, David J. Fleet, Tim Salimans, arXiv:2205.11487v1, 2022.
+</li>
+  <li><a href="https://arxiv.org/abs/2304.08818">Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models</a>, Andreas Blattmann, Robin Rombach, Huan Ling, Tim Dockhorn, Seung Wook Kim, Sanja Fidler, Karsten Kreis, CVPR 2023.</li>
+  <li><a href="https://arxiv.org/abs/2308.06571">ModelScope Text-to-Video Technical Report</a>, Jiuniu Wang, Hangjie Yuan, Dayou Chen, Yingya Zhang, Xiang Wang, Shiwei Zhang, arXiv:2308.06571, 2023.</li>
+  <li><a href="https://arxiv.org/abs/2309.15818">Show-1: Marrying Pixel and Latent Diffusion Models for Text-to-Video Generation</a>, David Junhao Zhang, Jay Zhangjie Wu, Jia-Wei Liu, Rui Zhao, Lingmin Ran, Yuchao Gu, Difei Gao, Mike Zheng Shou, arXiv:2309.15818, 2023.</li>
+  <li><a href="https://arxiv.org/abs/2310.19512">VideoCrafter1: Open Diffusion Models for High-Quality Video Generation</a>, Haoxin Chen, Menghan Xia, Yingqing He, Yong Zhang, Xiaodong Cun, Shaoshu Yang, Jinbo Xing, Yaofang Liu, Qifeng Chen, Xintao Wang, Chao Weng, Ying Shan, arXiv:2310.19512, 2023.</li>
+  <li><a href="#">LAVIE: High-Quality Video Generation with Cascaded Latent Diffusion Models</a>, ##</li>
+  <li><a href="https://arxiv.org/abs/2309.15103">LAVIE: High-Quality Video Generation with Cascaded Latent Diffusion Models</a>, Yaohui Wang, Xinyuan Chen, Xin Ma, Shangchen Zhou, Ziqi Huang, Yi Wang, Ceyuan Yang, Yinan He, Jiashuo Yu, Peiqing Yang, Yuwei Guo, Tianxing Wu, Chenyang Si, Yuming Jiang, Cunjian Chen, Chen Change Loy, Bo Dai, Dahua Lin, Yu Qiao, Ziwei Liu, IJCV, 2024.</li>
+  <li><a href="https://arxiv.org/abs/2311.15127">Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets</a>, Andreas Blattmann, Tim Dockhorn, Sumith Kulal, Daniel Mendelevitch, Maciej Kilian, Dominik Lorenz, Yam Levi, Zion English, Vikram Voleti, Adam Letts, Varun Jampani, Robin Rombach, arXiv:2311.15127, 2023.</li>
+  <li><a href="https://arxiv.org/abs/2401.12945">Lumiere: A Space-Time Diffusion Model for Video Generation</a>, Omer Bar-Tal, Hila Chefer, Omer Tov, Charles Herrmann, Roni Paiss, Shiran Zada, Ariel Ephrat, Junhwa Hur, Guanghui Liu, Amit Raj, Yuanzhen Li, Michael Rubinstein, Tomer Michaeli, Oliver Wang, Deqing Sun, Tali Dekel, Inbar Mosseri, SIGGRAPH Asia 2024.</li>
+  <li><a href="https://arxiv.org/abs/2312.04557">GenTron: Diffusion Transformers for Image and Video Generation</a>, Shoufa Chen, Mengmeng Xu, Jiawei Ren, Yuren Cong, Sen He, Yanping Xie, Animesh Sinha, Ping Luo, Tao Xiang, Juan-Manuel Perez-Rua, CVPR 2024.</li>
+  <li><a href="https://arxiv.org/abs/2312.06662">Photorealistic Video Generation with Diffusion Models</a>, Agrim Gupta, Lijun Yu, Kihyuk Sohn, Xiuye Gu, Meera Hahn, Li Fei-Fei, Irfan Essa, Lu Jiang, José Lezama, arXiv:2312.06662, 2023.</li>
+  <li><a href="https://arxiv.org/abs/2402.14797">Snap Video: Scaled Spatiotemporal Transformers for Text-to-Video Synthesis</a>, Willi Menapace, Aliaksandr Siarohin, Ivan Skorokhodov, Ekaterina Deyneka, Tsai-Shien Chen, Anil Kag, Yuwei Fang, Aleksei Stoliar, Elisa Ricci, Jian Ren, Sergey Tulyakov, CVPR 2024.</li>
+  <li><a href="https://openai.com/index/video-generation-models-as-world-simulators/">Video generation models as world simulators</a>, Tim Brooks, Bill Peebles, Connor Holmes, Will DePue, Yufei Guo, Li Jing, David Schnurr, Joe Taylor, Troy Luhman, Eric Luhman, Clarence Ng, Ricky Wang, Aditya Ramesh, 2024.</li>
+  <li><a href="https://arxiv.org/abs/2312.14125">VideoPoet: A Large Language Model for Zero-Shot Video Generation</a>, Dan Kondratyuk, Lijun Yu, Xiuye Gu, José Lezama, Jonathan Huang, Grant Schindler, Rachel Hornung, Vighnesh Birodkar, Jimmy Yan, Ming-Chang Chiu, Krishna Somandepalli, Hassan Akbari, Yair Alon, Yong Cheng, Josh Dillon, Agrim Gupta, Meera Hahn, Anja Hauth, David Hendon, Alonso Martinez, David Minnen, Mikhail Sirotenko, Kihyuk Sohn, Xuan Yang, Hartwig Adam, Ming-Hsuan Yang, Irfan Essa, Huisheng Wang, David A. Ross, Bryan Seybold, Lu Jiang, ICML 2024.</li>
+  <li><a href="https://arxiv.org/abs/2307.04725">AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning</a>, Yuwei Guo, Ceyuan Yang, Anyi Rao, Zhengyang Liang, Yaohui Wang, Yu Qiao, Maneesh Agrawala, Dahua Lin, Bo Dai, ICLR 2024.</li>
+  <li><a href="https://arxiv.org/abs/2303.13439">Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Generators</a>, Levon Khachatryan, Andranik Movsisyan, Vahram Tadevosyan, Roberto Henschel, Zhangyang Wang, Shant Navasardyan, Humphrey Shi, ICCV 2023.</li>
+  <li><a href="https://sierkinhane.github.io/visor-gpt/">VisorGPT: Learning Visual Prior via Generative Pre-Training</a>, Jinheng Xie,  Kai Ye,  Yudong Li,  Yuexiang Li,  Kevin Qinghong Lin, Yefeng Zheng,  Linlin Shen,  Mike Zheng Shou, NeurIPS 2023.</li>
+  <li><a href="https://arxiv.org/abs/2309.15091">VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning#</a>, Han Lin, Abhay Zala, Jaemin Cho, Mohit Bansal, COLM 2024.</li>
+  <li><a href="https://arxiv.org/abs/2404.15909">Learning Long-form Video Prior via Generative Pre-Training</a>, Jinheng Xie, Jiajun Feng, Zhaoxu Tian, Kevin Qinghong Lin, Yawen Huang, Xi Xia, Nanxu Gong, Xu Zuo, Jiaqi Yang, Yefeng Zheng, Mike Zheng Shou, arXiv:2404.15909, 2023.</li>
+  <li><a href="https://arxiv.org/abs/2303.12346">NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation</a>, Shengming Yin, Chenfei Wu, Huan Yang, Jianfeng Wang, Xiaodong Wang, Minheng Ni, Zhengyuan Yang, Linjie Li, Shuguang Liu, Fan Yang, Jianlong Fu, Gong Ming, Lijuan Wang, Zicheng Liu, Houqiang Li, Nan Duan, ACL 2023.</li>
+  <li><a href="https://arxiv.org/abs/2304.14404">Motion-Conditioned Diffusion Model for Controllable Video Synthesis</a>, Tsai-Shien Chen, Chieh Hubert Lin, Hung-Yu Tseng, Tsung-Yi Lin, Ming-Hsuan Yang, arXiv:2304.14404, 2023.</li>
+  <li><a href="https://arxiv.org/abs/2312.03641">MotionCtrl: A Unified and Flexible Motion Controller for Video Generation</a>, Zhouxia Wang, Ziyang Yuan, Xintao Wang, Tianshui Chen, Menghan Xia, Ping Luo, Ying Shan, SIGGRAPH 2024 Conference Papers, 2024.</li>
+  <li><a href="https://arxiv.org/abs/2404.02101">CameraCtrl: Enabling Camera Control for Text-to-Video Generation</a>, Hao He, Yinghao Xu, Yuwei Guo, Gordon Wetzstein, Bo Dai, Hongsheng Li, Ceyuan Yang, ICLR 2025.</li>
+  <li><a href="https://arxiv.org/abs/2309.04509">The Power of Sound (TPoS): Audio Reactive Video Generation with Stable Diffusion</a>, Yujin Jeong, Wonjeong Ryoo, Seunghyun Lee, Dabin Seo, Wonmin Byeon, Sangpil Kim, Jinkyu Kim, ICCV 2023./</li>
+  <li><a href="https://arxiv.org/abs/2305.11675">Cinematic Mindscapes: High-quality Video Reconstruction from Brain Activity</a>, Zijiao Chen, Jiaxin Qing, Juan Helen Zhou, NeurIPS 2023.</li>
+  <li><a href="https://arxiv.org/abs/2303.11897">TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering</a>, Yushi Hu, Benlin Liu, Jungo Kasai, Yizhong Wang, Mari Ostendorf, Ranjay Krishna, Noah A Smith, ICCV 2023.</li>
+  <li><a href="https://arxiv.org/abs/2311.04287">Holistic Evaluation of Text-To-Image Models</a>, Tony Lee, Michihiro Yasunaga, Chenlin Meng, Yifan Mai, Joon Sung Park, Agrim Gupta, Yunzhi Zhang, Deepak Narayanan, Hannah Benita Teufel, Marco Bellagente, Minguk Kang, Taesung Park, Jure Leskovec, Jun-Yan Zhu, Li Fei-Fei, Jiajun Wu, Stefano Ermon, Percy Liang, NeurIPS 2023.</li>
+  <li><a href="https://arxiv.org/abs/2310.06904">Mitigating stereotypical biases in text to image generative systems</a>, Piero Esposito, Parmida Atighehchian, Anastasis Germanidis, Deepti Ghadiyaram, NeurIPS 2023.</li>
+  <li><a href="https://arxiv.org/abs/2211.05105">Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models</a>, Patrick Schramowski, Manuel Brack, Björn Deiseroth, Kristian Kersting, CVPR 2023.</li>
+  <li><a href="https://arxiv.org/abs/2303.07345">Erasing Concepts from Diffusion Models</a>, Rohit Gandikota, Joanna Materzynska, Jaden Fiotto-Kaufman, David Bau, ICCV 2023.</li>
+  <li><a href="https://arxiv.org/abs/2301.13188">Extracting Training Data from Diffusion Models</a>, Nicholas Carlini, Jamie Hayes, Milad Nasr, Matthew Jagielski, Vikash Sehwag, Florian Tramèr, Borja Balle, Daphne Ippolito, Eric Wallace</li>
+  <li><a href="https://arxiv.org/abs/2310.11440">EvalCrafter: Benchmarking and Evaluating Large Video Generation Models</a>, Yaofang Liu, Xiaodong Cun, Xuebo Liu, Xintao Wang, Yong Zhang, Haoxin Chen, Yang Liu, Tieyong Zeng, Raymond Chan, Ying Shan, CVPR 2024.</li>
+  
+</ul>
+<!--<p>
+<h3>Suggested Video Material:</h3>
+<ul class="default">
+  <li>'s <a href="#">###</a>, ##</li>
+</ul><br>
+</p>-->
+<p>
+<h3>Additional Resources:</h3>
+<ul class="default">
+  <li>[Blog post] <a href="https://lilianweng.github.io/posts/2024-04-12-diffusion-video/">Diffusion Models for Video Generation</a>, Lilian Weng</li>
+  <li><a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models">A Survey on Video Diffusion Models</a>, Zhen Xing, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang, ACM Computing Surveys,Vol. 57, No. 2, November 2024.</li>
+</ul>
+</p>
+  				
+ <!-- Lecture 9 -->
+  				<hr>
+  				<h2>Lecture 9: Diffusion Models (<a href="slides/lect9-diffusion-models.pdf">slides</a>)</h2>
+  				<p><i>denoising diffusion models, latent diffusion models, classifier-free guidance, video diffusion models, diffusion GANs</i></p>
+  				<p>Please study the following material in preparation for the class</p>
+  				<h3>Key Readings:</h3>
+  				<ul class="default">
+  			       <li><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a>, Jonathan Ho, Ajay Jain, Pieter Abbeel, NeurIPS 2020.</li>		<li><a href="https://arxiv.org/abs/1503.03585">Deep Unsupervised Learning using Nonequilibrium Thermodynamics</a>, Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli, ICML, 2015</li>
+                  <li><a href="https://arxiv.org/abs/1907.05600">Generative Modeling by Estimating Gradients of the Data Distribution</a>, Yang Song, Stefano Ermon, NeurIPS 2019.</li>
+                  <li><a href="https://arxiv.org/abs/2105.05233">Diffusion Models Beat GANs on Image Synthesis</a>, Prafulla Dhariwal, Alex Nichol, NeurIPS 2021.</li>
+                  <li><a href="https://openreview.net/pdf?id=qw8AKxfYbI">Classifier-free diffusion guidance</a>, Jonathan Ho and Tim Salimans, NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications.</li>
+                  <li><a href="https://arxiv.org/abs/2112.10741">GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models</a>, Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen, arXiv preprint arXiv:2112.10741, 2021.</li>
+                  <li><a href="https://proceedings.mlr.press/v139/ramesh21a.html">Zero-Shot Text-to-Image Generation</a>, Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, Ilya Sutskever, ICML 2021</li>
+                  <li><a href="https://arxiv.org/abs/2204.06125">Hierarchical Text-Conditional Image Generation with CLIP Latents</a>, Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, Mark Chen, arXiv:2204.06125, 2022.</li>
+                  <li><a href="https://cdn.openai.com/papers/dall-e-3.pdf">Improving Image Generation with Better Captions</a>, James Betker et al., OpenAI Technical Report, 2023.</li>
+                  <li><a href="https://openreview.net/pdf?id=08Yk-n5l2Al">Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding</a>, Chitwan Saharia et al., NeurIPS 2022.</li>
+                  <li><a href="https://arxiv.org/abs/2010.02502">Denoising Diffusion Implicit Models</a>, Jiaming Song, Chenlin Meng, Stefano Ermonm ICLR 2021.</li>
+                  <li><a href="https://openreview.net/pdf?id=TIdIXIpzhoI">Progressive distillation for fast sampling of diffusion models.</a>, Tim Salimans and Jonathan Ho, ICLR 2022.</li>
+                  <li><a href="https://openaccess.thecvf.com/content/WACV2025/papers/Lin_Common_Diffusion_Noise_Schedules_and_Sample_Steps_Are_Flawed_WACV_2025_paper.pdf">Common Diffusion Noise Schedules and Sample Steps are Flawed</a>, Shanchuan Lin, Bingchen Liu, Jiashi Li, Xiao Yang, WACV 2025. </li>
+                  <li><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf">High-resolution image synthesis with latent diffusion models.</a>, Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Bjorn Ommer, CVPR 2022.</li>
+                  <li><a href="https://arxiv.org/abs/2311.15127">Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets</a>, Andreas Blattmann et al., arXiv:2311.15127, 2023.</li>
+                  <li><a href="https://www.jmlr.org/papers/volume23/21-0635/21-0635.pdf">Cascaded diffusion models for high fidelity image generation</a>, Jonathan Ho et al., JMLR 23, 2022. </li>
+                  <li><a href="https://arxiv.org/abs/2210.02303">Imagen Video: High Definition Video Generation with Diffusion Models</a>, Jonathan Ho et al., arXiv:2210.02303, 2022.</li>
+                  <li><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf">Scalable Diffusion Models with Transformers</a>, William Peebles, Saining Xie, ICCV 2023.</li>
+                  <li><a href="https://arxiv.org/abs/2312.06662">Photorealistic Video Generation with Diffusion Models</a>, Agrim Gupta, arXiv:2312.06662, 2023.</li>
+                  <li><a href="https://sde-image-editing.github.io">SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations</a>, Chenlin Meng, Yutong He, Yang Song, Jiaming Song, Jiajun Wu, Jun-Yan Zhu, Stefano Ermon, ICLR 2025.</li>
+                  <li><a href="https://openreview.net/pdf/a6e78444f28f4790c2b8eb24364ced3ce736feb0.pdf">Prompt-to-prompt image editing with cross attention control</a>, Amir Hertz, et al., ICLR 2023.</li>
+                  <li><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Ruiz_DreamBooth_Fine_Tuning_Text-to-Image_Diffusion_Models_for_Subject-Driven_Generation_CVPR_2023_paper.pdf">Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation</a>, Nataniel Ruiz et al., CVPR 2023.</li>
+                  <li><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf">Adding conditional control to text-to-image diffusion models</a>, Lvmin Zhang, Anyi Rao, and Maneesh Agrawala, ICCV 2023.</li>
+                  <li><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Tune-A-Video_One-Shot_Tuning_of_Image_Diffusion_Models_for_Text-to-Video_Generation_ICCV_2023_paper.pdf">Tune-a-video: One-shot tuning of image diffusion models for text-to-video generation</a>, Jay Zhangjie Wu, et al., ICCV 2023.</li>
+                  <li><a href="https://arxiv.org/abs/2302.01329">Dreamix: Video diffusion models are general video editors</a>, Eyal Modal et al., arXiv:2302.01329, 2023.</li>
+                  <li><a href="https://openreview.net/forum?id=FjNys5c7VyY">DreamFusion: Text-to-3D using 2D Diffusion</a>, Ben Poole et al., ICLR 2023.</li>
+                  <li><a href="https://openreview.net/forum?id=pjtIEgscE3&referrer=%5Bthe%20profile%20of%20Bo%20Dai%5D(%2Fprofile%3Fid%3D~Bo_Dai1)">Probabilistic Adaptation of Text-to-Video Models</a>, Sherry Yang et al., ICLR 2023.</li>
+                  <li><a href="https://nvlabs.github.io/denoising-diffusion-gan/">Tackling the Generative Learning Trilemma with Denoising Diffusion GANs</a>, Zhisheng Xiao, Karsten Kreis, Arash Vahda, ICLR 2025.</li>
+                  <li><a href="https://arxiv.org/abs/2311.16567">MobileDiffusion: Subsecond Text-to-Image Generation on Mobile Devices</a>, Yang Zhao et al., arXiv preprint arXiv:2311.16567, 2023.</li>
+                  <li><a href="https://arxiv.org/abs/2401.11605">Scalable High-Resolution Pixel-Space Image Synthesis with Hourglass Diffusion Transformers</a>, Katherine Crowson et al., arXiv preprint arXiv:2401.11605, 2025.</li> 
+
+           </ul>
+				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+	  				<li><a href="https://www.youtube.com/watch?v=cS6JQpEY9cs">Denoising Diffusion-based Generative Modeling:
+              Foundations and Applications</a>, Karsten Kreis, Ruiqi Gao and Arash Vahdat</li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li>[Blog post] <a href="https://yang-song.github.io/blog/2021/score/">Generative Modeling by Estimating Gradients of the Data Distribution</a>, Yang Song.</li>
+  					<li>[Blog post] <a href="https://lilianweng.github.io/posts/2021-07-11-diffusion-models/">What are Diffusion Models?</a>, Lilian Weng.</li>
+  					<li>[Blog post] <a href="https://angusturner.github.io/generative_models/2021/06/29/diffusion-probabilistic-models-I.html">Diffusion Models as a kind of VAE</a>, Angus Turner.</li>
+                    <li><a href="https://arxiv.org/pdf/2208.11970.pdf">Understanding Diffusion Models: A Unified Perspective</a>, Calvin Luo, arXiv preprint arXiv:2208.11970, 2022.</li>		
+  				</ul>
+  				</p>				 
+ 
+ 
+ <!-- Lecture 8 -->
+   				<hr>
+  				<h2>Lecture 8: Generative Adversarial Networks (<a href="slides/lect8-generative-adversarial-networks.pdf">slides</a>)</h2>
+  				<p><i>implicit models, generative adversarial networks (GANs), evaluation metrics, theory behind GANs, GAN architectures, conditional GANs, cycle-consistent adversarial networks, representation learning in GANs, applications</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Key Readings:</h3>
+  				<ul class="default">
+  					<li><a href="https://www.deeplearningbook.org/contents/generative_models.html">Sections 20.10.4</a> of the <a href="http://www.deeplearningbook.org/">Deep Learning</a> textbook.</li>
+  					<li><a href="https://papers.nips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf">Generative Adversarial Networks</a>, Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, NIPS 2014.</li>
+  					<li> <a href="https://openreview.net/pdf?id=BydrOIcle">Unrolled Generative Adversarial Networks</a>, Luke Metz, Ben Poole, David Pfau, Jascha Sohl-Dickstein, ICLR 2017.</li>
+		  			<li><a href="https://arxiv.org/abs/1511.01844">A note on the evaluation of generative models</a>, Lucas Theis, Aäron van den Oord, Matthias Bethge, ICLR 2016.</li>
+		  			<li><a href="https://arxiv.org/abs/2201.13019">On the Robustness of Quality Measures for GANs</a>, Motasem Alfarra, Juan C. Pérez, Anna Frühstück, Philip H. S. Torr, Peter Wonka, Bernard Ghanem, arXiv Preprint arXiv:2201.13019, 2025.</li>
+  					<li><a href="https://arxiv.org/abs/1511.06434">Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks</a>, Alec Radford, Luke Metz, Soumith Chintala, ICLR 2016.</li>
+  					
+  					<li><a href="https://papers.nips.cc/paper/2016/hash/8a3363abe792db2d8761d6403605aeb7-Abstract.html">Improved Techniques for Training GANs</a>, Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, Xi Chen, Xi Chen, NIPS 2016.</li>
+  					<li><a href="https://sites.google.com/view/projected-gan/">Projected GANs Converge Faster</a>, Axel Sauer, Kashyap Chitta, Jens Müller, Andreas Geiger, NeurIPS 2021.</li>
+  					<li><a href="http://proceedings.mlr.press/v70/arjovsky17a.html">Wasserstein Generative Adversarial Networks</a>, Martin Arjovsky, Soumith Chintala, Léon Bottou, ICML 2017.</li>
+  					<li><a href="https://papers.nips.cc/paper/2017/hash/892c3b1c6dccd52936e27cbd0ff683d6-Abstract.html">Improved Training of Wasserstein GANs</a>, Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron C. Courville, NIPS 2017.</li>
+  					<li><a href="https://arxiv.org/abs/1710.10196">Progressive Growing of GANs for Improved Quality, Stability, and Variation</a>, Tero Karras, Timo Aila, Samuli Laine, Jaakko Lehtinen, ICLR 2018.</li>
+  					<li><a href="https://openreview.net/forum?id=B1QRgziT-">Spectral Normalization for Generative Adversarial Networks </a>, Takeru Miyato, Toshiki Kataoka, Masanori Koyama, Yuichi Yoshida, ICLR 2018.</li>
+  					<li><a href="http://proceedings.mlr.press/v97/zhang19d.html">Self-Attention Generative Adversarial Networks</a>, Han Zhang, Ian Goodfellow, Dimitris Metaxas, Augustus Odena, ICML 2019.</li>	
+  					<li><a href="https://arxiv.org/abs/1809.11096">Large Scale GAN Training for High Fidelity Natural Image Synthesis</a>, Andrew Brock, Jeff Donahue, Karen Simonyan, ICLR 2019.</li>
+  					<li><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.pdf">A Style-Based Generator Architecture for Generative Adversarial Networks</a>, Tero Karras, Samuli Laine, Timo Aila, CVPR 2019.</li>
+  					<li> <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Karras_Analyzing_and_Improving_the_Image_Quality_of_StyleGAN_CVPR_2020_paper.pdf">Analyzing and Improving the Image Quality of StyleGAN</a>, Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila, CVPR 2020.</li>
+  					<li><a href="https://nvlabs.github.io/stylegan3/">Alias-Free Generative Adversarial Networks </a>, Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila, NeurIPS 2021.</li>
+  					<li><a href="https://sites.google.com/view/stylegan-xl/">StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets</a>, Axel Sauer, Katja Schwarz, Andreas Geiger, arXiv preprint arXiv:2202.00273, 2025.</li>
+  					<li><a href="https://self-distilled-stylegan.github.io">Self-Distilled StyleGAN: Towards Generation from Internet Photos, Ron Mokady, Michal Yarom, Omer Tov, Oran Lang, Daniel Cohen-Or, Tali Dekel, Michal Irani and Inbar Mosseri, arXiv preprint arXiv:2202.12211, 2025.</a></li>
+  					<li><a href="https://openreview.net/forum?id=HyxPx3R9tm">Variational Discriminator Bottleneck: Improving Imitation Learning, Inverse RL, and GANs by Constraining Information Flow</a>, Xue Bin Peng, Angjoo Kanazawa, Sam Toyer, Pieter Abbeel, Sergey Levine, ICLR 2019.</li>		  			
+		  			<li><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf">Image-to-Image Translation with Conditional Adversarial Networks</a>, Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros, CVPR 2017</li>
+		  			<li><a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf">Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks</a>, Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros, ICCV 2017</li>
+		  			<li> <a href="https://openreview.net/forum?id=S1ObKwC9">InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets</a>, Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, Pieter Abbeel, NIPS 2016.</li>
+		  			<li><a href="https://openreview.net/pdf?id=B1ElR4cgg">Adversarially Learned Inference</a>, Vincent Dumoulin, Ishmael Belghazi, Ben Poole, Olivier Mastropietro, Alex Lamb, Martin Arjovsky, Aaron Courville, ICLR 2017.</li>
+		  			<li> <a href="https://arxiv.org/abs/1907.02544">Large Scale Adversarial Representation Learning</a>, Jeff Donahue, Karen Simonyan, NeurIPS 2019.</li>		  			
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+	  				<li>Jeff Donahue & Mihaela Rosca's lecture on <a href="https://www.youtube.com/watch?v=wFsI2WqUfdA">Generative Adversarial Networks</a></li>
+  					<li><a href="https://www.youtube.com/watch?v=EXLRZr0k8ok">CVPR 2018 Tutorial on GANs</a>, Ian Goodfellow,  Phillip Isola,  Taesung Park and Jun-Yan Zhu</li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li><a href="https://poloclub.github.io/ganlab/">GAN Lab</a>, Minsuk Kahng, Nikhil Thorat, Polo Chau, Fernanda Viégas, and Martin Wattenberg, 2019.</li>
+	  				<li>[Blog post] <a href="https://machinelearningmastery.com/a-gentle-introduction-to-the-biggan/">A Gentle Introduction to BigGAN the Big Generative Adversarial Network<a/>, Jason Brownlee</li>
+		  			<li>[Blog post] <a href="https://colinraffel.com/blog/gans-and-divergence-minimization.html">GANs and Divergence Minimization</a>, Colin Raffel.</li>
+		  			<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html">From GAN to WGAN</a>, Lilian Weng</li>
+	  				<li>[Blog post] <a href="https://www.inference.vc/an-alternative-update-rule-for-generative-adversarial-networks/">An Alternative Update Rule for Generative Adversarial Networks</a>, Ferenc Huszár</li>	
+	  				<li><a href="https://distill.pub/2019/gan-open-problems/">Open Questions about Generative Adversarial Networks</a>, Distill, 2019.</li>	  	
+	  				<li><a href="https://papers.nips.cc/paper/2016/hash/04025959b191f8f9de3f924f0940515f-Abstract.html">Generating Videos with Scene Dynamics</a>, Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, NIPS 2016.</li>
+	  				<li><a href="https://arxiv.org/abs/1907.06571">Adversarial Video Generation on Complex Datasets</a>, Aidan Clark, Jeff Donahue, Karen Simonyan, arXiv preprint arXiv:1907.06571, 2019.</li>
+	  				<li><a href="https://papers.nips.cc/paper/2016/file/44f683a84163b3523afe57c2e008bc8c-Paper.pdf">Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling</a>, Jiajun Wu. Chengkai Zhang, Tianfan Xue,  William T. Freeman, Joshua B. Tenenbaum, NIPS 2016.</li>
+	  				<li><a href="https://openaccess.thecvf.com/content_ICCVW_2019/papers/NeurArch/Nguyen-Phuoc_HoloGAN_Unsupervised_Learning_of_3D_Representations_From_Natural_Images_ICCVW_2019_paper.pdf">HoloGAN: Unsupervised Learning of 3D Representations From Natural Images</a>, Thu Nguyen-Phuoc, Chuan Li, Lucas Theis, Christian Richardt, Yong-Liang Yang, ICCV 2019.</li>
+	  				<li><a href="https://tcwang0509.github.io/vid2vid/paper_vid2vid.pdf">Video-to-Video Synthesis</a>, Ting-Chun Wang, Ming-Yu Liu, Jun-Yan Zhu, Guilin Liu, Andrew Tao, Jan Kautz, Bryan Catanzaro, NeurIPS 2018.</li>
+	  				<li><a href="https://arxiv.org/pdf/1808.07371.pdf">Everybody Dance Now</a>, Caroline Chan, Shiry Ginosar, Tinghui Zhou, Alexei A. Efros, ICCV 2019.</li>
+	  				<li><a href="https://arxiv.org/pdf/1612.03242v1.pdf">StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks</a>, Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris Metaxas, ICCV 2017.</li>
+	  				<li><a href="https://arxiv.org/abs/1609.04802">Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network</a>, Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi, CVPR 2017.</li>
+	  				<li><a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Pathak_Context_Encoders_Feature_CVPR_2016_paper.pdf">Context Encoders: Feature Learning by Inpainting</a>, Deepak Pathak, Philipp Krahenbuhl, Jeff Donahue, Trevor Darrell, Alexei A. Efros, CVPR 2016.</li>
+	  				<li><a href="https://papers.nips.cc/paper/2016/file/45fbc6d3e05ebd93369ce542e8f2322d-Paper.pdf">Domain Separation Networks</a>, Konstantinos Bousmalis, George Trigeorgis, Nathan Silberman, Dilip Krishnan, Dumitru Erhan, NIPS 2016.</li>
+	  				<li><a href="https://arxiv.org/abs/1903.07291">Semantic Image Synthesis with Spatially-Adaptive Normalization</a>, Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu, CVPR 2019.</li>
+	  				<li><a href="https://hucvl.github.io/attribute_hallucination/">Manipulating Attributes of Natural Scenes via Hallucination</a>, Levent Karacan, Zeynep  Akata, Aykut  Erdem, Erkut Erdem, ACM Transactions on Graphics, November 2019, Article No: 7.</li>
+	  				<li><a href="http://www.icon.bilkent.edu.tr/docs/Dar-2019.pdf">Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks</a>, Salman Ul Hassan Dar, Mahmut Yurt, Levent Karacan, Aykut Erdem, Erkut Erdem, Tolga Çukur, IEEE Trans. Med. Imag., Vol. 38, Issue 10, pp. 2375-2388, October 2019.</li>
+	  				<li><a href="https://openreview.net/forum?id=ByMVTsR5KQ">Adversarial Audio Synthesis</a>, Chris Donahue, Julian McAuley, Miller Puckette, ICLR 2019.</li>
+	  				<li><a href="https://openreview.net/forum?id=ByOExmWAb">MaskGAN: Better Text Generation via Filling in the _______ </a>, William Fedus, Ian Goodfellow, Andrew M. Dai, ICLR 2018.</li>
+  				</ul>
+  				</p>
+
+  				
+ <!-- Lecture 7 -->
+   				<hr>
+  				<h2>Lecture 7: Latent Variable Models (<a href="slides/lect7-latent-variable-models.pdf">slides</a>)</h2>
+				<p><i>latent variable models, variational autoencoders, importance weighted autoencoders, variational lower bound/evidence lower bound, likelihood ratio gradients vs. reparameterization trick gradients, Beta-VAE, variational dequantization</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Ket Readings:</h3>
+  				<ul class="default">
+  					<li><a href="https://www.deeplearningbook.org/contents/generative_models.html">Sections 20.10.3</a> of the <a href="http://www.deeplearningbook.org/">Deep Learning</a> textbook.</li>
+  					<li><a href="https://arxiv.org/pdf/1906.02691.pdf">Chapter 2 of An Introduction to Variational Autoencoders</a>, Kingma and Welling.</li>
+  					<li><a href="https://arxiv.org/abs/1509.00519">Importance Weighted Autoencoders</a>, Yuri Burda, Roger B. Grosse, Ruslan Salakhutdinov</li>
+  					<li><a href="https://arxiv.org/abs/1312.6114">Auto-Encoding Variational Bayes</a>, Diederik P. Kingma, Max Welling, ICLR 2014.</li>
+  					<li><a href="https://arxiv.org/pdf/1711.00937.pdf">Neural Discrete Representation Learning</a>, Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu, NIPS 2017.</li>
+  					<li><a href="https://arxiv.org/pdf/1906.00446.pdf">Generating Diverse High-Fidelity Images with VQ-VAE-2</a>, Ali Razavi, Aäron van den Oord, Oriol Vinyals, NeurIPS 2019.</li>
+  					<li><a href="https://openreview.net/pdf?id=Sy2fzU9gl">beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework</a>, Irina Higgins, Loic Matthey, Arka Pal, Christopher Burgess, Xavier Glorot, Matthew Botvinick, Shakir Mohamed, Alexander Lerchner, ICLR 2017.</li>
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>Andriy Mnih's lecture on <a href="https://www.youtube.com/watch?v=7Pcvdo4EJeo">Modern Latent Variable Models</a> (also includes flow-based models)</li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+	  				<li><a href="https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf">Variational Inference</a> lecture notes by David Blei.</li>
+	  				<li>[Blog post] <a href="https://yugeten.github.io/posts/2020/06/elbo/">How I learned to stop worrying and write ELBO (and its gradients) in a billion ways</a>, Yuge Shi.</li>
+	  				<li>[Blog post] <a href="https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf">Intuitively Understanding Variational Autoencoders</a>, Irhum Shafkat.</li>
+  					<li>[Blog post] <a href="https://blog.evjang.com/2016/08/variational-bayes.html">A Beginner's Guide to Variational Methods: Mean-Field Approximation</a>, Eric Jang.</li>
+  					<li>[Blog post] <a href="https://jaan.io/what-is-variational-autoencoder-vae-tutorial/">Tutorial - What is a variational autoencoder?</a>, Jaan Altosaar</li>
+  					<li>[Blog post] <a href="https://magenta.tensorflow.org/music-vae">MusicVAE: Creating a palette for musical scores with machine learning</a>, Adam Roberts, Jesse Engel, Colin Raffel, Ian Simon, Curtis Hawthorne</li>
+  					<li><a href="https://courses.cs.washington.edu/courses/cse599i/20au/resources/L09_discretevae.pdf">Discrete VAE’s</a>, John Thickstun.</li>
+  					<li><a href="https://arxiv.org/pdf/2005.00341.pdf">Jukebox: A Generative Model for Music</a>, Prafulla Dhariwal, Heewoo Jun, Christine Payne, Jong Wook Kim, Alec Radford, Ilya Sutskever, arXiv preprint arXiv:2005.00341, 2019.</li>
+  					<li><a href="https://papers.nips.cc/paper/2016/hash/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Abstract.html">Improved Variational Inference with Inverse Autoregressive Flow</a>, Durk P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling, NIPS 2016.</li>
+  					<li><a href="https://openreview.net/forum?id=BJKYvt5lg">PixelVAE: A Latent Variable Model for Natural Images</a>, Ishaan Gulrajani, Kundan Kumar, Faruk Ahmed, Adrien Ali Taiga, Francesco Visin, David Vazquez, Aaron Courville, ICLR 2017.</li>
+  					<li><a href="http://proceedings.mlr.press/v97/ho19a.html">Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design</a>, Jonathan Ho, Xi Chen, Aravind Srinivas, Yan Duan, Pieter Abbeel, ICML 2019.</li>
+  				</ul>
+  				</p>
+ 
+ 				
+ <!-- Lecture 6 -->
+  				<hr>
+  				<h2>Lecture 6: Normalizing Flow Models (<a href="slides/lect6-normalizing-flow-models.pdf">slides</a>)</h2>
+  				<p><i>1-D flows, change of variables, autoregressive flows, inverse autoregressive flows, affine flows, RealNVP, Glow, TarFlow, Flow++, FFJORD, multi-scale flows, dequantization</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Key Readings:</h3>
+  				<ul class="default">
+  					<li><b>NICE:</b> <a href="https://arxiv.org/abs/1410.8516">NICE: Non-linear Independent Components Estimation</a>, Laurent Dinh, David Krueger, and Yoshua Bengio, ICLR 2015.</li>
+  					<li><b>IAF:</b> <a href="https://papers.nips.cc/paper/2016/file/ddeebdeefdb7e7e7a697e1c3e3d8ef54-Paper.pdf">Improved variational inference with inverse autoregressive flow</a>, Durk P. Kingma, Tim Salimans, Rafal Jozefowicz, Xi Chen, Ilya Sutskever, Max Welling, NIPS 2016.</li>
+  					<li><b>RealNVP:</b> <a href="https://openreview.net/forum?id=HkpbnH9lx">Density estimation using Real NVP</a>, Laurent Dinh, Jascha Sohl-Dickstein, Samy Bengio, ICLR 2017.</li>
+  					<li><a href="https://papers.nips.cc/paper/2017/file/6c1da886822c67822bcf3679d04369fa-Paper.pdf">Masked Autoregressive Flow for Density Estimation</a>, George Papamakarios, Theo Pavlakou, Iain Murray, NIPS 2017.</li>
+  					<li><a href="http://proceedings.mlr.press/v80/huang18d/huang18d.pdf">Neural autoregressive flows</a>, Chin-Wei Huang, David Krueger, Alexandre Lacoste, Aaron Courville, ICML 2018.</li>
+  					<li><a href="https://papers.nips.cc/paper/2018/file/d139db6a236200b21cc7f752979132d0-Paper.pdf">Glow: Generative Flow with Invertible 1×1 Convolutions</a>, Diederik P. Kingma, Prafulla Dhariwal, NeurIPS 2018.</li>
+  					<li><b>Flow++L</b> <a href="http://proceedings.mlr.press/v97/ho19a.html">Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design</a>, Jonathan Ho, Xi Chen, Aravind Srinivas, Yan Duan, Pieter Abbeel, ICML 2019.</li>
+  					<li><a href="https://arxiv.org/pdf/1808.03856.pdf">Neural Importance Sampling</a>, Thomas Müller, Brian McWilliams, Fabrice Rousselle, Markus Gross, Jan Novák, SIGGRAPH 2019.</li> 					
+  					<li><b>Ffjord</b>: <a href="https://openreview.net/forum?id=rJxgknCcK7">Ffjord: Free-form continuous dynamics for scalable reversible generative models</a>, Will Grathwohl, Ricky T. Q. Chen, Jesse Bettencourt, Ilya Sutskever, David Duvenaud, ICLR 2019.</li>
+  					<li><a href="https://openreview.net/pdf/99885355a0f127b35ddbf715679d8fa3a14e9a99.pdf">Residual Flows for Invertible Generative Modeling</a>, Ricky T. Q. Chen, Jens Behrmann, David Duvenaud, Jörn-Henrik Jacobsen, NeurIPS 2019.</li>
+                  <li><b>MintNet:</b> <a href="https://arxiv.org/pdf/1907.07945.pdf">MintNet: Building Invertible Neural Networks with Masked Convolutions</a>, Yang Song, Chenlin Meng, Stefano Ermon, NeurIPS 2019.</li>
+  					<li><b>SRFLow:</b> <a href="">SRFlow: Learning the Super-Resolution Space with Normalizing Flow</a>, Andreas Lugmayr, Martin Danelljan, Luc Van Gool, Radu Timofte, ECCV 2020.</li>
+  					<li><a href="https://aclanthology.org/2021.acl-long.355.pdf">Continuous Language Generative Flow</a>, Zineng Tang, Shiyue Zhang, Hyounghun Kim, Mohit Bansal. ACL 2021.</li>
+  					<li><b>FloWaveNet:</b> <a href="http://proceedings.mlr.press/v97/kim19b.html">FloWaveNet : A Generative Flow for Raw Audio</a>, Sungwon Kim, Sang-gil Lee, Jongyoon Song, Jaehyeon Kim, Sungroh Yoon, ICML 2019.</li>
+  					<li><a href="https://arxiv.org/abs/2106.03135">Go with the Flows: Mixtures of Normalizing Flows for Point Cloud Generation and Reconstruction</a>, Janis Postels, Mengya Liu, Riccardo Spezialetti, Luc Van Gool, Federico Tombari, 3DV 2021.</li>
+                    <li><b>TarFlow:</b><a href="https://arxiv.org/abs/2412.06329"> Normalizing Flows are Capable Generative Models</a>. ArXiv Preprint arXiv:2412.06329v2, December 2024.</li>
+                                
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>Marcus A. Brubaker's lecture on <a href="https://www.youtube.com/watch?v=u3vVyFVU_lI">Introduction to Normalizing Flows</a></li>
+  					<li>Laurent Dinh's talk on <a href="https://www.youtube.com/watch?v=P4Ta-TZPVi0">A primer on normalizing flows</a></li> 					
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li><a href="https://arxiv.org/pdf/1908.09257.pdf">Normalizing Flows: An Introduction and Review of Current Methods</a>, Ivan Kobyzev, Simon J.D. Prince, and Marcus A. Brubaker, IEEE PAMI, 2021.</li>
+  					<li><a href="https://jmlr.org/papers/volume22/19-1028/19-1028.pdf">Normalizing Flows for Probabilistic Modeling and Inference</a>, George Papamakarios, Eric Nalisnick, Danilo Jimenez Rezende, Shakir Mohamed, Balaji Lakshminarayanan, JMLR, 2021.</li>
+  					<li>[Blog post] <a href="https://openai.com/blog/glow/">Glow: Better Reversible Generative Models</a>, OpenAI</li>
+  					<li>[Blog post] <a href="https://blog.evjang.com/2018/01/nf1.html">Normalizing Flows Tutorial, Part 1: Distributions and Determinants</a>, Eric Jang</li>
+  					<li>[Blog post] <a href="https://blog.evjang.com/2018/01/nf2.html">Normalizing Flows Tutorial, Part 2: Modern Normalizing Flows</a>, Eric Jang</li>
+  					<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html">Flow-based Deep Generative Models</a>, Lilian Weng</li>
+  				</ul>
+  				</p>
+ 
+  				 				
+ <!-- Lecture 5 -->
+   				<hr>
+  				<h2>Lecture 5: Autoregressive Models (<a href="slides/lect5-autoregressive-models.pdf">slides</a>)</h2>
+  				<p><i>histograms as simple generative models, parameterized distributions and maximum likelihood, Bayes’ Nets, MADE, Causal Masked Neural Models, RNN-based autoregressive models, masking-based autoregressive models</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+                <h3>Key Readings:</h3>
+                <ul class="default">
+                   <li>Sections 2.1-2.3, 3.1-3.3 of the <a href="https://jmtomczak.github.io/dgm_book.html">Deep Generative Modeling</a> textbook.</li>
+                   <li><a href="https://proceedings.neurips.cc/paper_files/paper/1999/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf">Modeling High-Dimensional Discrete Data with Multi-Layer Neural Networks</a>, Y. Bengio and S. Bengio. NIPS 1999. </li>
+                    <li><b>char-rnn:</b> <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">http://karpathy.github.io/2015/05/21/rnn-effectiveness/</a></li>
+  					<li><b>MADE:</b> <a href="http://proceedings.mlr.press/v37/germain15.html">MADE: Masked Autoencoder for Distribution Estimation</a>, Mathieu Germain, Karol Gregor, Iain Murray, Hugo Larochelle. ICML 2015.</li>
+  					<li><b>WaveNet:</b> <a href="https://arxiv.org/abs/1609.03499">WaveNet: A Generative Model for Raw Audio</a>, Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, Koray Kavukcuoglu. arXiv preprint arXiv:1609.03499, 2016.</li>
+  					<li><b>PixelCNN:</b> <a href="http://proceedings.mlr.press/v48/oord16.html">Pixel Recurrent Neural Networks</a>, Aaron Van Oord, Nal Kalchbrenner, Koray Kavukcuoglu. ICML 2016.</li>
+  					<li><b>Gated PixelCNN:</b> <a href="https://papers.nips.cc/paper/2016/hash/b1301141feffabac455e1f90a7de2054-Abstract.html">Conditional Image Generation with PixelCNN Decoders</a>, Aaron van den Oord, Nal Kalchbrenner, Lasse Espeholt, koray kavukcuoglu, Oriol Vinyals, Alex Graves, NIPS 2016.</li>
+  					<li><b>PixelCNN++:</b> <a href="https://openreview.net/forum?id=BJrFC6ceg">PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications</a>, Tim Salimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma, ICLR 2017.</li>
+  					<li><b>PixelSNAIL:</b> <a href="http://proceedings.mlr.press/v80/chen18h.html">PixelSNAIL: An Improved Autoregressive Generative Model</a>, XI Chen, Nikhil Mishra, Mostafa Rohaninejad, Pieter Abbeel. ICML 2018.</li>
+  					<li><b>Fast PixelCNN++:</b> <a href="https://openreview.net/forum?id=rkdF0ZNKl">Fast Generation for Convolutional Autoregressive Models</a>, Prajit Ramachandran, Tom Le Paine, Pooya Khorrami, Mohammad Babaeizadeh, Shiyu Chang, Yang Zhang, Mark A. Hasegawa-Johnson, Roy H. Campbell, Thomas S. Huang. ICLR 2017 Workshop.</li>
+  					<li><b>Multiscale PixelCNN:</b> <a href="http://proceedings.mlr.press/v70/reed17a.html">Parallel Multiscale Autoregressive Density Estimation</a>, Scott Reed, Aäron Oord, Nal Kalchbrenner, Sergio Gómez Colmenarejo, Ziyu Wang, Yutian Chen, Dan Belov, Nando Freitas. ICML 2017.</li>
+  					<li><b>Grayscale PixelCNN:</b> <a href="http://proceedings.mlr.press/v70/kolesnikov17a.html">PixelCNN Models with Auxiliary Variables for Natural Image Modeling</a>, Alexander Kolesnikov, Christoph H. Lampert. ICML 2017.</li>
+  					<li><b>Subscale Pixel Network:</b> <a href="https://openreview.net/forum?id=HylzTiC5Km">Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling</a>, Jacob Menick, Nal Kalchbrenner. ICLR 2019.</li>
+  					<li><a href="https://openreview.net/forum?id=rJgsskrFwH">Scaling Autoregressive Video Models</a>, Dirk Weissenborn, Oscar Täckström, Jakob Uszkoreit. ICLR 2020.</li>
+  					<li><b>Sparse Attention:</b> <a href="https://arxiv.org/pdf/1904.10509.pdf">Generating Long Sequences with Sparse Transformers</a>, Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever. arXiv preprint arXiv:1904.10509, 2019.</li>
+  					<li><b>PixelCNN Super Resolution:</b> <a href="https://openaccess.thecvf.com/content_ICCV_2017/papers/Dahl_Pixel_Recursive_Super_ICCV_2017_paper.pdf">Pixel Recursive Super Resolution</a>, Ryan Dahl, Mohammad Norouzi, Jonathon Shlens. ICCV 2017.</li>
+  					<li><b>Colorization Transformer:</b> <a href="https://openreview.net/forum?id=5NA1PinlGFu">Colorization Transformer</a>, Manoj Kumar, Dirk Weissenborn, Nal Kalchbrenner, ICLR 2021.</li>
+  					<li><b>PixelTransformer:</b> <a href="https://shubhtuls.github.io/PixelTransformer/">PixelTransformer: Sample Conditioned Signal Generation</a>, Shubham Tulsiani. Abhinav Gupta, ICML 2021.</li>
+                    <li><b>GPT-1:</b> <a href="https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf">Improving Language Understanding by Generative Pre-Training</a>, Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever, OpenAI Report, 2018.</li>
+                    <li><b>GPT-2:</b> <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Language Models are Unsupervised Multitask Learners</a>, Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, OpenAI Report, 2019.</li>
+                    <li><b>GPT-3:</b> <a href="https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html">Language Models are Few-Shot Learners</a>, Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah et al., NeurIPS 2020.</li>
+                    <li><b>iGPT</b>: <a href="http://proceedings.mlr.press/v119/chen20s.html"></a>, Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, Ilya Sutskever, ICML 2020.</li>
+                    <li><b>VQ-VAE:</b> <a href="https://arxiv.org/pdf/1711.00937.pdf">Neural Discrete Representation Learning</a>, Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu, NIPS 2017.</li>
+                    <li><b>VQ-GAN:</b> <a href="https://arxiv.org/abs/2012.09841">Taming transformers for high-resolution image synthesis</a>, Patrick Esser, Robin Rombach, Björn Ommer, CVPR 2021.</li>
+                    <li><b>MAGVIT-v2:</b> <a href="https://arxiv.org/abs/2310.05737">Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation</a>, Lijun Yu, José Lezama, Nitesh B. Gundavarapu et al., ICLR 2024.</li>
+                    <li><b>TiTok:</b> <a href="">An Image is Worth 32 Tokens for Reconstruction and Generation</a>, Qihang Yu, Mark Weber, Xueqing Deng, Xiaohui Shen, Daniel Cremers, Liang-Chieh Chen, NeurIPS 2024.</li>
+                    <li><b>VAR:</b> <a href="https://arxiv.org/abs/2404.02905">Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction</a>, K. Tian et al., NeurIPS 2024.</li>
+                    <li><b>VideoPoet:</b> <a href="https://arxiv.org/abs/2312.14125">VideoPoet: A Large Language Model for Zero-Shot Video Generation</a>, Dan Kondratyuk, Lijun Yu, Xiuye Gu et al., arXiv Preprint arXiv:2312.14125, 2023.</li>
+                    <li><b>S4:</b> <a href="https://arxiv.org/abs/2111.00396">Efficiently Modeling Long Sequences with Structured State Spaces</a>, Albert Gu, Karan Goel, Christopher Ré, ICLR 2022.</li>
+                    <li><b>Linear Attention:</b> <a href="https://arxiv.org/abs/2006.16236">Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention</a>, Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, François Fleuret, ICML 2020.</li>
+                    <li><b>FSQ:</b> <a href="https://arxiv.org/abs/2309.15505">Finite Scalar Quantization: VQ-VAE Made Simple</a>, Fabian Mentzer, David Minnen, Eirikur Agustsson, Michael Tschannen, ICLR 2025.</li>
+                    <li><b>Gumbel-Softmax:</b> <a href="https://arxiv.org/abs/1611.01144">Categorical reparameterization with gumbel-softmax</a>, Eric Jang, Shixiang Gu, Ben Poole, ICLR 2017.</li>
+                    <li><b>Concrete Distribution:</b> <a href="https://arxiv.org/abs/1611.00712">The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables</a>, Chris J. Maddison, Andriy Mnih, Yee Whye Teh, ICLR 2017.</li>
+                    <li><b>Image Transformer:</b> <a href="https://arxiv.org/abs/1802.05751">Image transformer</a>Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Łukasz Kaiser, Noam Shazeer, Alexander Ku, Dustin Tran, ICML 2018.</li>
+                    <li><b>Sparse Transformer:</b> <a href="https://arxiv.org/abs/1904.10509">Generating Long Sequences with Sparse Transformers</a>, Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever,arXiv preprint arXiv:1904.10509, 2019.</li>
+                    <li><b>LVM:</b> <a href="https://arxiv.org/abs/2312.00785">Sequential Modeling Enables Scalable Learning for Large Vision Models</a>, Yutong Bai, Xinyang Geng, Karttikeya Mangalam, Amir Bar, Alan Yuille, Trevor Darrell, Jitendra Malik, Alexei A Efros, arXiv Preprint arXiv:2312.00785, 2023.</li>
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>Hugo Larochelle's lecture on <a href="https://www.youtube.com/watch?v=R8fx2b8Asg0">Autoregressive Generative Models with Deep Learning</a></li> 
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li>[Blog post] <a href="https://towardsdatascience.com/auto-regressive-generative-models-pixelrnn-pixelcnn-32d192911173">Auto-Regressive Generative Models (PixelRNN, PixelCNN++)</a>, Harshit Sharma, Saurabh Mishra</li>
+  				</ul>
+  				</p>
+ 
+ 
+ <!-- Lecture 4 -->
+   				<hr>
+  				<h2>Lecture 4: Neural Building Blocks III: Attention and Transformers (<a href="slides/lect4-attention-and-transformers.pdf">slides</a>)</h2>
+  				<p><i>content-based attention, location-based attention, soft vs. hard attention, self-attention, attention for image captioning, transformer networks</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Key Readings:</h3>
+	  			<ul class="default">
+		  			<li><a href="https://arxiv.org/abs/1409.0473">Neural Machine Translation by Jointly Learning to Align and Translate</a>, D. Bahdanau, K. Cho, Y. Bengio, ICLR 2015</li>
+		  			<li>Section 5 of <a href="https://arxiv.org/abs/1308.0850">Generating Sequence with Recurrent Neural Networks</a>, A. Graves, ArXiV</li>
+	  				<!--<li><a href="https://distill.pub/2017/ctc/">Sequence Modeling with CTC</a>, Awni Hannun, Distill, 2017</li>
+		  			<li><a href="https://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf">Recurrent Models of Visual Attention</a>, V. Mnih, N. Heess, A. Graves, K. Kavukcuoglu, NIPS 2014</li>
+		  			<li><a href="http://proceedings.mlr.press/v37/gregor15.pdf">DRAW: a Recurrent Neural Network for Image Generation</a>, K. Gregor, I. Danihelka, A. Graves, DJ Rezende, D. Wierstra, ICML 2015</li>-->
+		  			<li><a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf">Attention Is All You Need</a>, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, NIPS 2017</li>
+		  			<li><a href="https://openreview.net/forum?id=YicbFdNTTy">An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</a>. Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby. ICLR 2021.</li>
+		  		</ul>
+	  			</p>
+	  			
+	  			<p>
+	  			<h3>Suggested Video Material:</h3>
+	  			<ul class="default">
+		  			<li>Alex Graves' lecture on <a href="https://www.youtube.com/watch?v=Q57rzaHHO0k">Attention and Memory in Deep Learning</a></li>
+		  			<li>Łukasz Kaiser's talk on <a href="https://www.youtube.com/watch?v=rBCqOTEfxvg">Attention is all you need attentional neural network models</a></li>
+	  			</ul><br>
+	  			</p>
+	  			<p>	  			
+	  			<h3>Additional Resources:</h3>
+  				<ul class="default">
+	  				<li><a href="https://distill.pub/2016/augmented-rnns/">Attention and Augmented Recurrent Neural Networks</a>, Chris Olah and Shan Carter. Distill, 2016</li>
+  					<li>[Blog post] <a href="http://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer</a>, Jay Alammar</li>	
+		  		
+  					<li>[Blog post] <a href="https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html">The Transformer Family</a>, Lilian Weng</li>  				
+  					<li><a href="https://arxiv.org/pdf/2102.11972.pdf">Do Transformer Modifications Transfer Across Implementations and Applications?</a>, Sharan Narang et al., arXiv preprint arXiv:2102.11972, 2021.</li>
+  					<li><a href="https://arxiv.org/pdf/2101.01169.pdf">Transformers in Vision: A Survey</a>, Salman Khan, Muzammal Naseer, Munawar Hayat, Syed Waqas Zamir, Fahad Shahbaz Khan, and Mubarak Shah, arXiv preprint arXiv:2101.01169, 2021</li>	
+  				</ul>  				</p>
+ 
+  				  	
+ <!-- Lecture 3 -->
+  				<hr>
+  				<h2>Lecture 3: Neural Building Blocks II: Sequential Processing with Recurrent Neural Networks (<a href="slides/lect3-sequential-processing.pdf">slides</a>)</h2>
+  				<p><i>sequence modeling, recurrent neural networks (RNNs), RNN applications, vanilla RNN, training RNNs, long short-term memory (LSTM), LSTM variants, gated recurrent unit (GRU)</i></p>
+  				<p>Please study the following material in preparation for the class:</p>
+  				<h3>Key Readings:</h3>
+  				<ul class="default">
+  					<li><a href="http://www.deeplearningbook.org/contents/rnn.html">Chapter #10</a> of the <a href="http://www.deeplearningbook.org/">Deep Learning</a> text book.</li>
+  					<li>Section 1-3 of <a href="https://arxiv.org/abs/1308.0850">Generating Sequence with Recurrent Neural Networks</a>, A. Graves, ArXiV</li>
+		  			
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>Efstratios Gavves and Max Welling's <a href="http://webcolleges.uva.nl/Mediasite/Play/00584cefc05647a3a47113c749dccac21d">Lecture 8</a></li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+  				<ul class="default">
+  					<li>[Blog post] <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a>, Chris Olah.</li>
+  					<li>[Blog post] <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">The Unreasonable Effectiveness of Recurrent Neural Networks</a>, Andrej Karpathy.</li>
+  					<li><a href="http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf">Learning Long-Term Dependencies with Gradient Descest is Difficult</a>, Yoshua Bengio, Patrice Simard, and Paolo Frasconi.</li>
+  					<li><a href="http://www.bioinf.jku.at/publications/older/2604.pdf">Long Short-Term Memory</a>, Sepp Hochreiter and Jürgen Schmidhuber.</li>
+  				</ul>
+  				</p>				  				
+<!-- Lecture 2 -->  						
+  				<hr>
+  				<h2>Lecture 2: Neural Building Blocks I: Spatial Processing with CNNs (<a href="slides/lect2-spatial-processing.pdf">slides</a>)</h2>
+  				<p><i>deep learning, computation in a neural net, optimization, backpropagation, convolutional neural networks, residual connections, training tricks</i></p>
+  				
+  				<p>Please study the following material in preparation for the class:</p>
+  				<p>
+  				<h3>Key Readings:</h3>
+  				<ul class="default">
+	  				<li><a href="http://www.deeplearningbook.org/contents/optimization.html">Chapter #8</a> and <a href="http://www.deeplearningbook.org/contents/convnets.html">Chapter #9</a> of the <a href="http://www.deeplearningbook.org/">Deep Learning</a> text book.</li>
+  				</ul>
+  				<p>
+  				<h3>Suggested Video Material:</h3>
+  				<ul class="default">
+  					<li>Andrej Karpathy's Stanford CS231n <a href="https://www.youtube.com/watch?v=LxfUGhug-iQ">Lecture 7</a></li>
+  					<li>Kaiming He's tutorial on <a href="https://www.youtube.com/watch?v=C6tLw-rPQ2o">Deep Residual Networks</a></li>
+  				</ul><br>
+  				</p>
+  				<p>
+  				<h3>Additional Resources:</h3>
+	  			<ul class="default">
+		  			<li><a href="https://www.researchgate.net/publication/317496930_Deep_Convolutional_Neural_Networks_for_Image_Classification_A_Comprehensive_Review">Deep Convolutional Neural Networks for Image Classification: A Comprehensive Review</a>, Waseem Rawat and Zenghui Wang. Neural Computation, Vol. 29 , No. 9, 2017</li>
+		  			<li><a href="https://distill.pub/2017/momentum/">Why Momentum Really Works</a>, Gabrial Goh. Distill. </li>
+		  			<li><a href="https://arxiv.org/pdf/1603.07285.pdf">A guide to convolution arithmetic for deep learning</a>, Vincent Dumoulin and Francesco Visin.</li>
+	  				<li><a href="https://arxiv.org/pdf/1511.07122.pdf">Multi-Scale Context Aggregation by Dilated Convolutions</a>, Fisher Yu and Vladlen Koltun. ICLR 2016</li>	
+	  				<li><a href="https://arxiv.org/pdf/2102.06171.pdf">High-Performance Large-Scale Image Recognition Without Normalization</a>, Andrew Brock, Soham De, Samuel L. Smith, Karen Simonyan</li>
+	  				<li>[Blog post] <a href="https://theaisummer.com/normalization/">In-layer normalization techniques for training very deep neural networks</a>, Nikolas Adaloglou</li>
+	  				<li>[Blog post] <a href="http://colah.github.io/posts/2014-07-Understanding-Convolutions/">Understanding Convolutions</a>, Christopher Olah.</li>
+  					<li>[Blog post] <a href="https://distill.pub/2016/deconv-checkerboard/">Deconvolution and Checkerboard Artifacts</a>, Augustus Odena, Vincent Dumoulin, Chris Olah.</li>
+	  			</ul>
+  				</p>
+  				
+  				<p>
+  				<hr>
+
+
+<!-- Lecture 1 -->  						
+  				<hr>
+  				<h2>Lecture 1: Introduction to the course (<a href="slides/lect1-introduction.pdf">slides</a>)</h2>
+  				<p><i>course information, unsupervised learning</i></p>
+  				
+  				<p>Please study the following material in preparation for the class:</p>
+  				<p>
+  				<h3>Key Readings:</h3>
+	  			<ul class="default">
+		  			<li>[Blog post] <a href="https://jmtomczak.github.io/blog/1/1_introduction.html">Why generative modeling?</a>, Jakub Tomczak. </li>
+	  				<li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1056774">The Bandwagon</a>, Claude E. Shannon. IRE Transactions on Information Theory, Vol. 2, Issue 3, 1956.</li>	
+	  				<li><a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">The Bitter Lesson</a>, Rich Sutton, March 13, 2019.</li>
+	  			</ul>
+  				</p>
+  				
+  				<p>
+  				<hr>
+  				</div>
+  
+
+	<!-- Footer -->
+		<div id="footer">
+			<!-- Copyright -->
+				<div id="copyright">
+					design: <a href="http://templated.co">templated.co</a>
+				</div>			
+		</div>
+
+	</body>
+</html>
