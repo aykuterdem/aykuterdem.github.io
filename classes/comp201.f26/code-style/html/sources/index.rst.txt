@@ -1,0 +1,60 @@
+.. COMP201 Code Style documentation master file, created by
+   sphinx-quickstart on Sat Oct 31 20:44:33 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to Code Style Documentation! |heading|
+==============================================
+
+.. |heading| image:: ./_static/header.jpg
+
+
+
+Style
+-----
+Coding style refers to some of the literary aspects of writing code. What vocabulary do you use? For example, how do you name functions and variables? What spelling and punctuation conventions do you use? What orthography do you use?
+
+Everyone has their own speaking style, their own prose style, and their own coding style. While diversity is fine, some coding styles are worse than others. Code should be written both to execute and to communicate with a human reader, who may simply be reading it or who may need to modify it. Therefore, coding styles that make it more difficult for others to read or modify are problematic.
+
+For example what does this code do?
+
+.. code-block:: c
+
+   int srev(char*x, char*y) { int l;for(l=0;
+   y[0];
+   l++)y++;while(l){*x++=*--y;--l;
+   }*x = NULL
+   ;}
+
+And now, what does this code do?
+
+.. code-block:: c
+
+   /** @brief Reverse the characters of @a src into @a dst, returning the length of @a src. */
+   int strreverse(char *dst, const char *src) {
+      assert(dst && src);  /// neither parameter should be NULL
+      assert(dst != src);  /// we can’t reverse a string into itself
+      int len = strlen(src);
+      for (int pos = 0; pos != len; ++pos)
+            dst[pos] = src[len - pos - 1];
+      dst[len] = 0;
+      return len;
+   }
+
+In the following sections you can find our suggestions for coding style.
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
+   
+   naming
+   comment
+   indentation
+
+
+Tools
+======
+
+* :ref:`search`
+
+This style guide is adapted from LLVM standard and Harvard University CS61 2019 course contents.

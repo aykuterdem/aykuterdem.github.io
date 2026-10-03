@@ -1,0 +1,55 @@
+Commenting
+===========
+Comments are important for readability and maintainability. When writing comments, write them as English prose, using proper capitalization, punctuation, etc. Aim to describe what the code is trying to do and why, not how it does it at a micro level. Here are a few important things to document:
+
+File Headers
+-------------
+Every source file should have a header on it that describes the basic purpose of the file. You can add your name, project name, date, notes, a small description. A sample header file looks like this:
+
+.. code-block:: c
+
+   /**********************************************************************
+   * FILENAME :        fmcompres.c             
+   *
+   * DESCRIPTION :
+   *       File compression and decompression routines.
+   *
+   * FUNCTIONS :
+   *       int     FM_CompressFile( FileHandle )
+   *       int     FM_DecompressFile( FileHandle )
+   *
+   * NOTES :
+   *       These goes your notes
+   *       
+   *
+   * AUTHOR :    Arthur Other        START DATE :    Someday
+   *
+   */
+
+
+Function Headers
+-----------------
+You should put comments on top of each function that shortly describes what your function does and maybe a small example of usage.
+
+.. code-block:: c
+
+   /*******************************************************************
+   *  The my_func name
+   *
+   * Description of the my_func purpose
+   *
+   * Test Case: 
+   *          my_func( a, b) : d
+   *******************************************************************/
+
+One line comments
+-----------------
+For small one-line comments you can use '//' or prefered by Doxygen '///' is fine. You should put your comment line on top of the line that you are explaining. So that's a good practice to use '//' for commenting out a line of code and utlize '///' when you want to write information.
+
+.. code-block:: c
+
+   // int a = 23;
+   int a = 25;
+
+   /// Remember to change this value to 23
+   int a = 25;
