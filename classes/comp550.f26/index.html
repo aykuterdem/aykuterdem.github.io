@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>COMP550: Trending Topics in Deep Learning</title>
+		<title>COMP550: Emerging Topics in Deep Learning</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -52,7 +52,7 @@
 			<!-- Banner -->
 				<div id="banner">
 					<section class="container">
-						<h2>COMP550: Advances in Deep Learning</h2>
+						<h2>COMP550: Emerging Topics in Deep Learning</h2>
 						<span>Fall 2026</span>
 					</section>
 				</div>
@@ -65,9 +65,19 @@
 				<div id="div_courseinfo">
 				<h1 class="content-subhead">Course Information</h1>
 				<h2 class="content-subhead">About</h2>
-				<p>Over the past decade, deep learning models have achieved notable success across various domains such as computer vision, natural language understanding and speech processing, approaching or even surpassing human-level performances in many benchmark datasets. Yet deep learning keeps evolving and expanding into new frontiers. In this advanced seminar course, we’ll read and discuss a broad collection of papers on a wide variety of topics, including compositionality and systematic generalization, multimodal representation learning, memory and attention, graph neural networks, object-centric representation learning, dynamic networks, vision transformers, neural rendering, neural implicit representations, neuro-symbolic approaches, and deep implicit layers. The course also includes a project component, in which students will work alone or in pairs on a research topic covered in the class throughout the semester.</p>
+				<p>This course examines recent advances and emerging research directions in deep learning. Topics covered include foundation models and scaling; efficient adaptation and compression; reasoning and inference-time computation; unified multimodal understanding and generation; world models and physical intelligence; retrieval and long-term memory; tool-using agents; mechanistic interpretability and model steering; and evaluation and benchmarking.</p>
 
-				<p>The structure of the course follows the format used in Colin Raffel’s <a href="https://github.com/craffel/dl3d-seminar">COMP790 course</a> at University of North Carolina and Alec Jacobson's <a href="https://github.com/alecjacobson/seminar-on-geometry-and-animation">CSC2521 course</a> at the University of Toronto. Each lecture students will play a different role that defines how they will read the paper and focus on distinct points of view while preparing for the in-class discussion. See <a href="presentations.html">Presentations</a> page for the details. This process is chosen to provide multiple perspectives, a thorough understanding of the concepts, and more importantly way more fun. The aim of this seminar is to bring students to the state of the art in this exciting field.</p>			
+				<p>The course places particular emphasis on multimodal AI, including models that understand, generate, and reason about images, videos, language, and the physical world. We will study recent research through its central ideas, design choices, experimental evidence, and limitations.</p>
+				
+				<p><b>Course format:</b> This is a seminar and project course. During each reading week, we will discuss two papers, with one paper assigned to each lecture. Students will lead presentations, write short paper reviews, and contribute to the discussion. Everyone is expected to read both papers before their respective sessions.</p>
+				
+				<p>TA-led PS sessions connect the papers to their implementations through code walkthroughs and selected notebook demonstrations. These sessions will focus on the components needed to understand a method and interpret its behavior. PS sessions are ungraded and have no separate programming assignments.</p>
+				
+				<p>Throughout the semester, students will also pursue a research project individually or in pairs. Dedicated sessions provide opportunities to develop ideas, present progress, receive feedback, and share final results.</p>
+				
+				<p>There are no exams. Assessment is based on paper presentations, paper reviews, and the course project.</p>
+				
+				<p><b>Paper presentations:</b> The structure of the paper presentations follows the format used in Colin Raffel’s <a href="https://github.com/craffel/dl3d-seminar">COMP790 course</a> at University of North Carolina and Alec Jacobson's <a href="https://github.com/alecjacobson/seminar-on-geometry-and-animation">CSC2521 course</a> at the University of Toronto. Each lecture students will play a different role that defines how they will read the paper and focus on distinct points of view while preparing for the in-class discussion. See <a href="presentations.html">Presentations</a> page for the details. This process is chosen to provide multiple perspectives, a thorough understanding of the concepts, and more importantly way more fun. The aim of this seminar is to bring students to the state of the art in this exciting field.</p>			
 
 				<p>This class is taught by <a href="https://aykuterdem.github.io/">Aykut Erdem</a>, and intended for graduate students and ambitious undergraduates with a research experience. To get the most out of the class, students should have a strong knowledge in deep learning (such as COMP541 or COMP547) and good programming skills. If you have doubts whether you meet these requirements, please consult the instructor in advance.</p>
 								
@@ -79,22 +89,20 @@
 				
 				<p><b>Instruction style:</b> During the semester, students are responsible for studying and keeping up with the course material outside of class time. These may involve reading particular book chapters, papers or blogs and watching some video lectures.</p>
 				<h2 class="content-subhead">Time and Location</h2>
-				<p><b>Lectures:</b> Monday and Wednesday at 11:30-12:40 (CASE Z25)</p>
+				<p><b>Lectures:</b> Tuesday and Thursday at 13:00-14:10 (SNA 104)</p>
+				<p><b>PS Hours:</b> Wednesday 17:30-18:40 (CASE Z08)</p>
 				<h2 class="content-subhead">Communication</h2>
-				<p>The course webpage will be updated regularly throughout the semester with lecture notes, presentations, and important deadlines. All other course related communications will be carried out through Blackboard.</p>
+				<p>The course webpage will be updated regularly throughout the semester with notes, presentations, and important deadlines. All other course related communications will be carried out through KUHub Learn.</p>
 				
 				<h2 class="content-subhead">Course Requirements and Grading</h2>
 				<p>Grading for COMP550 will be based on
 				<ul class="default">
-				<li>Course Project (<i>presentations and reports</i>) (48%),</li>
-				<li>Paper Presentations (52%),</li>
+				<li>Course Project (<i>presentations and reports</i>) (45%),</li>
+				<li>Paper Presentations (45%),</li>
+				<li>Class Participation (10%)</li>>
 				</ul>
 				</p>
 				
-				<h2 class="content-subhead">Reference Books</h2>
-				<ul class="default">
-					<li>Ian Goodfellow, Yoshua Bengio, and Aaron Courville, Deep Learning, MIT Press, 2016 (draft available <a href="http://www.deeplearningbook.org">online</a>) </li>
-				</ul>
 			</div>
 							
 			<div id="div_schedule">
@@ -109,80 +117,81 @@
   				</thead>
   				<tbody>
   				<tr>
-  					<td>Sep 27-29</td>
-  					<td>Introduction to the course</td>
+  					<td>Oct 6-8</td>
+  					<td>Introduction to the course, logistics</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Oct 4-6</td>
-  					<td>Compositionality and systematic generalization</td>
+  					<td>Oct 13-15</td>
+  					<td>Post-Training and RL</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Oct 11-13</td>
-  					<td>Multimodal representation learning</td>
+  					<td>Oct 20-22</td>
+  					<td>Efficient Adaptation and Compression</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Oct 18-20</td>
-  					<td>Graph neural networks</td>
+  					<td>Oct 27</td>
+  					<td>Brainstorming project ideas</td>
   					<td>Project proposals due</td>
   				</tr>
   				<tr>
-  					<td>Oct 25-27</td>
-  					<td>Object-centric representation learning</td>
+  					<td>Nov 3-5</td>
+  					<td>Unified Multimodal Understanding and Generation</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Nov 1-3</td>
-  					<td>Neuro-symbolic approaches</td>
+  					<td>Nov 10-12</td>
+  					<td>Reasoning and Inference-time Computation</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Nov 8-10</td>
-  					<td>Neural implicit representations</td>
+  					<td>Nov 17-19</td>
+  					<td>World Models and Physical Intelligence</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Nov 15-17</td>
-  					<td>Winter break</td>
+  					<td>Nov 24-26</td>
+  					<td>Long-term Memory and Long-context models</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Nov 22-24</td>
+  					<td>Dec 1-3</td>
   					<td>Project progress presentations</td>
   					<td>Project progress reports due</td>
   				</tr>
   				<tr>
-  					<td>Nov 29-Dec 1</td>
-  					<td>Dynamic networks</td>
+  					<td>Dec 8-10</td>
+  					<td><i>No classes - NeurIPS 2026</i></td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Dec 6-8</td>
-  					<td>Neural rendering</td>
+  					<td>Dec 15-17</td>
+  					<td>Tool-using Agents</td>
   					<td></td>
   				</tr>
   				<tr>
-  					<td>Dec 13-15</td>
-  					<td>Memory and attention</td>
+  					<td>Dec 22-24</td>
+  					<td>Mechanistic Interpretability and Model Steering</td>
   					<td>
   				<tr>
-  					<td>Dec 20-22</td>
-  					<td>Vision Transformers</td>
+  					<td>Dec 29</td>
+  					<td>Project Feedback</td>
   					<td></td>
   				</tr></td>
   				</tr>
   				<tr>
-  					<td>Dec 27-29</td>
-  					<td>Deep implicit layers</td>
-  					<td></td>
-  				</tr>
+					<td>Jan 5-7</td>
+					<td>Evaluation and Benchmark Design</td>
+					<td></td>
+				</tr>
   				<tr>
-  					<td>Jan 3-5</td>
-  					<td>Final Project Presentations</td>
-  					<td>Final project reports due</td>
-  				</tr>
+					  <td>Jan 12-14</td>
+					  <td>Final Project Presentations</td>
+					  <td>Final project reports due</td>
+				  </tr>
+				  
   				</tbody>
   				</table>
   				
@@ -196,7 +205,7 @@
 		<div id="footer">
 			<!-- Copyright -->
 				<div id="copyright">
-					design: <a href="http://templated.co">templated.co</a> - banner image: Detail from a synthetic image generated by <a href="https://twitter.com/JanelleCShane">Janelle Shane</a> using the prompt "The Great Hall of the Sacred Library by James Gurney" based on <a href="https://twitter.com/RiversHaveWings">@RiversHaveWings'</a> VQGAN+CLIP <a href="https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing">Colab notebook</a>.
+					design: <a href="http://templated.co">templated.co</a> - banner image: An illustration generated by Gemini Nano Banana Pro using the prompt ``Can you generate a wide-screen, funny illustration in the style of Jean-Jacques Sempe in a dark background for my "Trending Topics in Deep Learning" class. Topics covered include foundation models and scaling; efficient adaptation and compression; reasoning and inference-time computation; unified multimodal understanding and generation; world models and physical intelligence; retrieval and long-term memory; tool-using agents; mechanistic interpretability and model steering; and evaluation and benchmarking.</a>.
 				</div>			
 		</div>
 
