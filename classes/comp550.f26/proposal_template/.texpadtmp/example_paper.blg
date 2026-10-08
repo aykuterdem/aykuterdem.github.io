@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: /Users/aykut/Dropbox/Teaching/comp547/project/proposal_template/.texpadtmp/example_paper.aux
+The style file: ../comp547.bst
+Database file #1: ../example_paper.bib
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            610 strings with 5499 characters,
+and the built_in function-call counts, 1494 in all, are:
+= -- 123
+> -- 113
+< -- 3
++ -- 37
+- -- 35
+* -- 131
+:= -- 230
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 16
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 55
+empty$ -- 100
+format.name$ -- 39
+if$ -- 311
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 18
+num.names$ -- 10
+pop$ -- 31
+preamble$ -- 1
+purify$ -- 14
+quote$ -- 0
+skip$ -- 54
+stack$ -- 0
+substring$ -- 71
+swap$ -- 15
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 0
+while$ -- 11
+width$ -- 0
+write$ -- 34
